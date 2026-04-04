@@ -3,7 +3,7 @@
   "sources": [
     "../../saving_vault/contract.algo.ts"
   ],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAmBmB;;;;;;;;;AAA0C;;AAA3D;AANF;;AAAA;;;AAAA;;;;;;AAAA;;;AAAA;;;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;AAAA;AAWG;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;;AAXH;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAamB;;AAZF;AAY6B;AAA1C;AACU;;AAZG;AAYwB;AAArC;AACiB;;AAZJ;AAY+B;AAA5C;AACiB;;AAXJ;;AAW+B;AAA5C;AACuB;;AAVL;AAUkC;AAApD;AAND;AAAA;AAQA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAEC;;AAAA;AACiB;;AAAV;AApBM;AAoBN;AAAA;AAAA;AAAP;AACiB;;AApBJ;AAoB+B;AAA5C;AACU;;AAtBG;AAsBb;;AAAA;AACyB;;AAAA;AACX;;AAlBL;;AAkBT;;AAAA;AAPD;AAAA;AAWA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAEO;AAAA;;AAAoB;;AAApB;AAAP;AACO;;AAAP;AAAA;AACiB;;AAAV;AAhCO;AAgCP;AAAA;AAAP;AAGwC;;AAAf;AApCX;AAoCW;AAAA;AAAA;;AAAA;AACU;;AAAV;AApCX;AAoCW;AAAA;AAEV;;AAvCD;AAuCd;;AAAA;AACqD;;AAAjB;AApCtB;;AAoCsB;AAAA;AAAA;;AAAA;AAAnB;;AApCH;;AAoCd;;AAAA;AACI;AAAA;;;AAAyC;;AAAjB;AAvCd;AAuCc;AAAA;AAAxB;;;AACgB;;AAxCN;AAwCiC;AAA5C;AACkE;;AAAvB;AArC3B;AAqC2B;AAAA;AAAkD;AAAlD;AAApB;;AArCP;AAqChB;;AAAA;AACU;;AA3CC;AA2C0B;AAArC;AACc;;AAtCP;;AAsCkC;AAAzC;AAE0B;;AAAvB;AAzCa;AAyCb;AAAA;AAlBN;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAqBA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAEwC;;AAAf;AApDX;AAoDW;AAAA;AACxB;AAAA;AACA;;AAAA;AACO;AAAA;AAAP;AAGe;AAED;;;;;;;;AAFC;;;AAIC;;;AAJD;;;;;AAOW;AAAA;AACX;;AAlEF;AAkEb;;AAAA;AAEyB;;AAAV;AAnEF;AAmEE;AAAA;AAAZ;AAAH;;;AACmB;;AAnEN;AAmEiC;AAA5C;AAnBH;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA",
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AA4BmB;AAA2C;;AAA5D;AAFF;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;;;;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;;;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AACe;AAKa;;AALb;AAKH;AAAA;;AAAD;AAAP;AALW;AAcK;;AAdL;AAMe;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAQ1B;AAXD;AAAA;AAcA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAjBY;AAmBY;;AAnBZ;AAmBJ;AAAA;;AAAP;AACA;;AAAA;AApBW;AAsB4B;;AAtB5B;AAsBY;AAAA;AAChB;AAAA;AAAA;AAAA;AAAP;AAEyB;;AAAA;;AAAA;AAEZ;;AAAA;;;AAGE;;AAAA;;;AACM;;AAAA;;;AALe;;AAAA;AAAA;;AAAA;AAAA;AAGd;AAHc;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AA1BzB;AA0BK;;AA1BL;AA0BX;AAAA;AATD;AAAA;AAmBA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAEQ;AAAA;;AAAoB;;AAApB;AAAP;AACO;;AAAP;AAAA;AAvCW;AAwCY;;AAxCZ;AAwCJ;AAAA;;AAAP;AAxCW;AA2C4B;;AA3C5B;AA2CY;AAAA;AAChB;AAAA;AAAA;AAAA;AAAA;;AAAP;AAAA;AAEyB;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;;AACM;;AAAA;;AAAA;AAAA;;AAAA;AAAA;;AAEF;;AAAA;AAAA;AAAA;;AACM;;AAAA;;AAAA;AAAA;;AAET;AAAA;;AAAA;AAAA;;AAEtB;AAAA;;;AAAA;;AAAA;;;AACsB;AAAxB;;AACuB;;AAAoC;AAApC;AAAA;;AACN;AAAjB;;AACqB;AAArB;;AAGkC;;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AA7DzB;AA6DK;;AA7DL;AA6DX;AAAA;AAzBD;AAAA;AAAA;AAAA;AAAA;AAAA;;;;;AAqCA;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAzEY;AA2EY;;AA3EZ;AA2EJ;AAAA;;AAAP;AA3EW;AA4E4B;;AA5E5B;AA4EY;AAAA;AAAA;AAAA;;AAAA;;AAAA;AAChB;AAAA;AAAA;AAAA;AAAA;;AAAP;AAAA;AACA;;AAAA;AACO;;AAAA;AAAP;AAIE;AAAA;AAAA;AAAA;;;;;AASa;AAED;;;;;;AAFC;;;AAIC;;;AAJD;;;;;AAQW;;AAAA;;AAAA;AAAA;AAAA;;AAEG;;AAAA;AAAA;AAAA;;AACzB;;AAAA;AAAJ;;;AAC0B;AAAxB;;AAOa;;AAAA;AAAA;;;AACM;;AAAA;;;AACT;;AAAA;;;AANwB;;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;AA3GzB;AA2GK;;AA3GL;AA2GX;AAAA;AAlCD;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAWG;;AAAA;AAAA;AADA;;;;;AAAA;;;AAEA;;AAAyB;;AAAA;;AAAA;AAAA;AAAA;;AAAzB;AAFA;;;;;AAAA;;;AAAA;;AAAA;;;;;AAAA;;;AAKkC;AAvFrB;AAuFqB;AAAA;AAAT;;AAAA;AAAA;;AAAA;AAA6C;;AAA9C;AACf;",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -11,12 +11,12 @@
       "params": {},
       "block": "main",
       "stack_in": [],
-      "op": "intcblock 0 1 8"
+      "op": "intcblock 1 0 8 16"
     },
-    "6": {
-      "op": "bytecblock \"goal\" \"dep\" \"done\" \"goalreached\" \"totalS\" \"dl\" 0x151f7c75"
+    "7": {
+      "op": "bytecblock \"dep\" \"penalty\" 0x151f7c75"
     },
-    "49": {
+    "26": {
       "op": "txn ApplicationID",
       "defined_out": [
         "reinterpret_bool%0#0"
@@ -25,12 +25,12 @@
         "reinterpret_bool%0#0"
       ]
     },
-    "51": {
+    "28": {
       "op": "bnz main_after_if_else@2",
       "stack_out": []
     },
-    "54": {
-      "op": "pushbytes \"penalty\"",
+    "31": {
+      "op": "bytec_1 // \"penalty\"",
       "defined_out": [
         "\"penalty\""
       ],
@@ -38,7 +38,7 @@
         "\"penalty\""
       ]
     },
-    "63": {
+    "32": {
       "op": "pushint 10 // 10",
       "defined_out": [
         "\"penalty\"",
@@ -49,11 +49,11 @@
         "10"
       ]
     },
-    "65": {
+    "34": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "66": {
+    "35": {
       "block": "main_after_if_else@2",
       "stack_in": [],
       "op": "txn NumAppArgs",
@@ -64,38 +64,98 @@
         "tmp%0#1"
       ]
     },
-    "68": {
-      "op": "bz main___algots__.defaultCreate@14",
+    "37": {
+      "op": "bz main___algots__.defaultCreate@13",
       "stack_out": []
     },
-    "71": {
-      "op": "pushbytes 0x29314d95 // method \"optIn()void\"",
+    "40": {
+      "op": "txn OnCompletion",
       "defined_out": [
-        "Method(optIn()void)"
+        "tmp%2#0"
       ],
       "stack_out": [
-        "Method(optIn()void)"
+        "tmp%2#0"
       ]
     },
-    "77": {
+    "42": {
+      "op": "!",
+      "defined_out": [
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "tmp%3#0"
+      ]
+    },
+    "43": {
+      "error": "OnCompletion must be NoOp",
+      "op": "assert // OnCompletion must be NoOp",
+      "stack_out": []
+    },
+    "44": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%4#0"
+      ],
+      "stack_out": [
+        "tmp%4#0"
+      ]
+    },
+    "46": {
+      "op": "assert",
+      "stack_out": []
+    },
+    "47": {
+      "op": "pushbytess 0x21db5a48 0xfa4303ba 0x3298e7c0 0x31214176 // method \"initUser()void\", method \"setGoal(uint64,uint64)void\", method \"deposit(pay)uint64\", method \"withdraw(uint64)uint64\"",
+      "defined_out": [
+        "Method(deposit(pay)uint64)",
+        "Method(initUser()void)",
+        "Method(setGoal(uint64,uint64)void)",
+        "Method(withdraw(uint64)uint64)"
+      ],
+      "stack_out": [
+        "Method(initUser()void)",
+        "Method(setGoal(uint64,uint64)void)",
+        "Method(deposit(pay)uint64)",
+        "Method(withdraw(uint64)uint64)"
+      ]
+    },
+    "69": {
       "op": "txna ApplicationArgs 0",
       "defined_out": [
-        "Method(optIn()void)",
-        "tmp%2#0"
+        "Method(deposit(pay)uint64)",
+        "Method(initUser()void)",
+        "Method(setGoal(uint64,uint64)void)",
+        "Method(withdraw(uint64)uint64)",
+        "tmp%6#0"
       ],
       "stack_out": [
-        "Method(optIn()void)",
-        "tmp%2#0"
+        "Method(initUser()void)",
+        "Method(setGoal(uint64,uint64)void)",
+        "Method(deposit(pay)uint64)",
+        "Method(withdraw(uint64)uint64)",
+        "tmp%6#0"
       ]
     },
-    "80": {
-      "op": "match main_optIn_route@5",
+    "72": {
+      "op": "match initUser setGoal deposit withdraw",
       "stack_out": []
     },
-    "84": {
-      "block": "main_switch_case_next@6",
+    "82": {
+      "op": "err"
+    },
+    "83": {
+      "block": "main___algots__.defaultCreate@13",
       "stack_in": [],
       "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%7#0"
+      ],
+      "stack_out": [
+        "tmp%7#0"
+      ]
+    },
+    "85": {
+      "op": "!",
       "defined_out": [
         "tmp%8#0"
       ],
@@ -104,184 +164,43 @@
       ]
     },
     "86": {
-      "op": "!",
+      "op": "txn ApplicationID",
       "defined_out": [
+        "tmp%8#0",
         "tmp%9#0"
       ],
       "stack_out": [
+        "tmp%8#0",
         "tmp%9#0"
       ]
     },
-    "87": {
-      "error": "OnCompletion must be NoOp",
-      "op": "assert // OnCompletion must be NoOp",
-      "stack_out": []
-    },
     "88": {
-      "op": "txn ApplicationID",
+      "op": "!",
       "defined_out": [
-        "tmp%10#0"
+        "tmp%10#0",
+        "tmp%8#0"
       ],
       "stack_out": [
+        "tmp%8#0",
         "tmp%10#0"
+      ]
+    },
+    "89": {
+      "op": "&&",
+      "defined_out": [
+        "tmp%11#0"
+      ],
+      "stack_out": [
+        "tmp%11#0"
       ]
     },
     "90": {
-      "op": "assert",
-      "stack_out": []
-    },
-    "91": {
-      "op": "pushbytess 0xfa4303ba 0x3298e7c0 0x31214176 // method \"setGoal(uint64,uint64)void\", method \"deposit(pay)uint64\", method \"withdraw(uint64)uint64\"",
-      "defined_out": [
-        "Method(deposit(pay)uint64)",
-        "Method(setGoal(uint64,uint64)void)",
-        "Method(withdraw(uint64)uint64)"
-      ],
-      "stack_out": [
-        "Method(setGoal(uint64,uint64)void)",
-        "Method(deposit(pay)uint64)",
-        "Method(withdraw(uint64)uint64)"
-      ]
-    },
-    "108": {
-      "op": "txna ApplicationArgs 0",
-      "defined_out": [
-        "Method(deposit(pay)uint64)",
-        "Method(setGoal(uint64,uint64)void)",
-        "Method(withdraw(uint64)uint64)",
-        "tmp%12#0"
-      ],
-      "stack_out": [
-        "Method(setGoal(uint64,uint64)void)",
-        "Method(deposit(pay)uint64)",
-        "Method(withdraw(uint64)uint64)",
-        "tmp%12#0"
-      ]
-    },
-    "111": {
-      "op": "match setGoal deposit withdraw",
-      "stack_out": []
-    },
-    "119": {
-      "op": "err"
-    },
-    "120": {
-      "block": "main_optIn_route@5",
-      "stack_in": [],
-      "op": "txn OnCompletion",
-      "defined_out": [
-        "tmp%3#0"
-      ],
-      "stack_out": [
-        "tmp%3#0"
-      ]
-    },
-    "122": {
-      "op": "intc_1 // OptIn",
-      "defined_out": [
-        "OptIn",
-        "tmp%3#0"
-      ],
-      "stack_out": [
-        "tmp%3#0",
-        "OptIn"
-      ]
-    },
-    "123": {
-      "op": "==",
-      "defined_out": [
-        "tmp%4#0"
-      ],
-      "stack_out": [
-        "tmp%4#0"
-      ]
-    },
-    "124": {
-      "op": "txn ApplicationID",
-      "defined_out": [
-        "tmp%4#0",
-        "tmp%5#0"
-      ],
-      "stack_out": [
-        "tmp%4#0",
-        "tmp%5#0"
-      ]
-    },
-    "126": {
-      "op": "&&",
-      "defined_out": [
-        "tmp%7#0"
-      ],
-      "stack_out": [
-        "tmp%7#0"
-      ]
-    },
-    "127": {
-      "error": "OnCompletion must be OptIn && can only call when not creating",
-      "op": "assert // OnCompletion must be OptIn && can only call when not creating",
-      "stack_out": []
-    },
-    "128": {
-      "op": "b optIn"
-    },
-    "131": {
-      "block": "main___algots__.defaultCreate@14",
-      "stack_in": [],
-      "op": "txn OnCompletion",
-      "defined_out": [
-        "tmp%13#0"
-      ],
-      "stack_out": [
-        "tmp%13#0"
-      ]
-    },
-    "133": {
-      "op": "!",
-      "defined_out": [
-        "tmp%14#0"
-      ],
-      "stack_out": [
-        "tmp%14#0"
-      ]
-    },
-    "134": {
-      "op": "txn ApplicationID",
-      "defined_out": [
-        "tmp%14#0",
-        "tmp%15#0"
-      ],
-      "stack_out": [
-        "tmp%14#0",
-        "tmp%15#0"
-      ]
-    },
-    "136": {
-      "op": "!",
-      "defined_out": [
-        "tmp%14#0",
-        "tmp%16#0"
-      ],
-      "stack_out": [
-        "tmp%14#0",
-        "tmp%16#0"
-      ]
-    },
-    "137": {
-      "op": "&&",
-      "defined_out": [
-        "tmp%17#0"
-      ],
-      "stack_out": [
-        "tmp%17#0"
-      ]
-    },
-    "138": {
       "error": "OnCompletion must be NoOp && can only call when creating",
       "op": "assert // OnCompletion must be NoOp && can only call when creating",
       "stack_out": []
     },
-    "139": {
-      "op": "intc_1 // 1",
+    "91": {
+      "op": "intc_0 // 1",
       "defined_out": [
         "1"
       ],
@@ -289,193 +208,129 @@
         "1"
       ]
     },
-    "140": {
+    "92": {
       "op": "return",
       "stack_out": []
     },
-    "141": {
-      "subroutine": "smart_contracts/saving_vault/contract.algo.ts::SavingVault.optIn[routing]",
+    "93": {
+      "subroutine": "smart_contracts/saving_vault/contract.algo.ts::SavingVault.initUser[routing]",
       "params": {},
-      "block": "optIn",
+      "block": "initUser",
       "stack_in": [],
-      "op": "txn Sender",
+      "op": "bytec_0 // \"dep\"",
       "defined_out": [
-        "tmp%0#0"
+        "\"dep\""
       ],
       "stack_out": [
-        "tmp%0#0"
-      ]
-    },
-    "143": {
-      "op": "bytec_1 // \"dep\"",
-      "defined_out": [
-        "\"dep\"",
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "tmp%0#0",
         "\"dep\""
       ]
     },
-    "144": {
-      "op": "intc_0 // 0",
+    "94": {
+      "op": "txn Sender",
       "defined_out": [
         "\"dep\"",
-        "0",
+        "materialized_values%0#0"
+      ],
+      "stack_out": [
+        "\"dep\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "96": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0"
+      ],
+      "stack_out": [
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "97": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "_%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "98": {
+      "op": "bury 1",
+      "stack_out": [
+        "maybe_exists%0#0"
+      ]
+    },
+    "100": {
+      "op": "!",
+      "defined_out": [
         "tmp%0#0"
       ],
       "stack_out": [
-        "tmp%0#0",
+        "tmp%0#0"
+      ]
+    },
+    "101": {
+      "error": "User already initialized",
+      "op": "assert // User already initialized",
+      "stack_out": []
+    },
+    "102": {
+      "op": "bytec_0 // \"dep\"",
+      "stack_out": [
+        "\"dep\""
+      ]
+    },
+    "103": {
+      "op": "txn Sender",
+      "defined_out": [
         "\"dep\"",
-        "0"
-      ]
-    },
-    "145": {
-      "op": "app_local_put",
-      "stack_out": []
-    },
-    "146": {
-      "op": "txn Sender",
-      "defined_out": [
-        "tmp%1#0"
+        "materialized_values%1#0"
       ],
       "stack_out": [
-        "tmp%1#0"
+        "\"dep\"",
+        "materialized_values%1#0"
       ]
     },
-    "148": {
-      "op": "bytec_0 // \"goal\"",
+    "105": {
+      "op": "concat",
       "defined_out": [
-        "\"goal\"",
-        "tmp%1#0"
+        "box_prefixed_key%1#0"
       ],
       "stack_out": [
-        "tmp%1#0",
-        "\"goal\""
+        "box_prefixed_key%1#0"
       ]
     },
-    "149": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "tmp%1#0",
-        "\"goal\"",
-        "0"
-      ]
-    },
-    "150": {
-      "op": "app_local_put",
-      "stack_out": []
-    },
-    "151": {
-      "op": "txn Sender",
+    "106": {
+      "op": "pushbytes 0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
       "defined_out": [
-        "tmp%2#0"
+        "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "box_prefixed_key%1#0"
       ],
       "stack_out": [
-        "tmp%2#0"
+        "box_prefixed_key%1#0",
+        "0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
       ]
-    },
-    "153": {
-      "op": "bytec_2 // \"done\"",
-      "defined_out": [
-        "\"done\"",
-        "tmp%2#0"
-      ],
-      "stack_out": [
-        "tmp%2#0",
-        "\"done\""
-      ]
-    },
-    "154": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "tmp%2#0",
-        "\"done\"",
-        "0"
-      ]
-    },
-    "155": {
-      "op": "app_local_put",
-      "stack_out": []
     },
     "156": {
-      "op": "txn Sender",
+      "op": "box_put",
+      "stack_out": []
+    },
+    "157": {
+      "op": "intc_0 // 1",
       "defined_out": [
-        "tmp%3#0"
+        "1"
       ],
       "stack_out": [
-        "tmp%3#0"
+        "1"
       ]
     },
     "158": {
-      "op": "bytec 4 // \"totalS\"",
-      "defined_out": [
-        "\"totalS\"",
-        "tmp%3#0"
-      ],
-      "stack_out": [
-        "tmp%3#0",
-        "\"totalS\""
-      ]
-    },
-    "160": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "tmp%3#0",
-        "\"totalS\"",
-        "0"
-      ]
-    },
-    "161": {
-      "op": "app_local_put",
-      "stack_out": []
-    },
-    "162": {
-      "op": "txn Sender",
-      "defined_out": [
-        "tmp%4#0"
-      ],
-      "stack_out": [
-        "tmp%4#0"
-      ]
-    },
-    "164": {
-      "op": "bytec_3 // \"goalreached\"",
-      "defined_out": [
-        "\"goalreached\"",
-        "tmp%4#0"
-      ],
-      "stack_out": [
-        "tmp%4#0",
-        "\"goalreached\""
-      ]
-    },
-    "165": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "tmp%4#0",
-        "\"goalreached\"",
-        "0"
-      ]
-    },
-    "166": {
-      "op": "app_local_put",
-      "stack_out": []
-    },
-    "167": {
-      "op": "intc_1 // 1",
-      "defined_out": [
-        "1"
-      ],
-      "stack_out": [
-        "1"
-      ]
-    },
-    "168": {
       "op": "return",
       "stack_out": []
     },
-    "169": {
+    "159": {
       "subroutine": "smart_contracts/saving_vault/contract.algo.ts::SavingVault.setGoal[routing]",
       "params": {},
       "block": "setGoal",
@@ -488,7 +343,7 @@
         "tmp%0#0"
       ]
     },
-    "172": {
+    "162": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
@@ -499,7 +354,7 @@
         "tmp%0#0 (copy)"
       ]
     },
-    "173": {
+    "163": {
       "op": "len",
       "defined_out": [
         "len%0#0",
@@ -510,7 +365,7 @@
         "len%0#0"
       ]
     },
-    "174": {
+    "164": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -523,7 +378,7 @@
         "8"
       ]
     },
-    "175": {
+    "165": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
@@ -534,14 +389,14 @@
         "eq%0#0"
       ]
     },
-    "176": {
+    "166": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
         "tmp%0#0"
       ]
     },
-    "177": {
+    "167": {
       "op": "btoi",
       "defined_out": [
         "goalAmount#0"
@@ -550,7 +405,7 @@
         "goalAmount#0"
       ]
     },
-    "178": {
+    "168": {
       "op": "txna ApplicationArgs 2",
       "defined_out": [
         "goalAmount#0",
@@ -561,7 +416,7 @@
         "tmp%2#0"
       ]
     },
-    "181": {
+    "171": {
       "op": "dup",
       "defined_out": [
         "goalAmount#0",
@@ -574,7 +429,7 @@
         "tmp%2#0 (copy)"
       ]
     },
-    "182": {
+    "172": {
       "op": "len",
       "defined_out": [
         "goalAmount#0",
@@ -587,7 +442,7 @@
         "len%1#0"
       ]
     },
-    "183": {
+    "173": {
       "op": "intc_2 // 8",
       "stack_out": [
         "goalAmount#0",
@@ -596,7 +451,7 @@
         "8"
       ]
     },
-    "184": {
+    "174": {
       "op": "==",
       "defined_out": [
         "eq%1#0",
@@ -609,7 +464,7 @@
         "eq%1#0"
       ]
     },
-    "185": {
+    "175": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
@@ -617,268 +472,572 @@
         "tmp%2#0"
       ]
     },
-    "186": {
+    "176": {
       "op": "btoi",
       "defined_out": [
-        "deadlin#0",
+        "deadlineDuration#0",
         "goalAmount#0"
       ],
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0"
+        "deadlineDuration#0"
       ]
     },
-    "187": {
+    "177": {
+      "op": "bytec_0 // \"dep\"",
+      "defined_out": [
+        "\"dep\"",
+        "deadlineDuration#0",
+        "goalAmount#0"
+      ],
+      "stack_out": [
+        "goalAmount#0",
+        "deadlineDuration#0",
+        "\"dep\""
+      ]
+    },
+    "178": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"dep\"",
+        "deadlineDuration#0",
+        "goalAmount#0",
+        "materialized_values%0#0"
+      ],
+      "stack_out": [
+        "goalAmount#0",
+        "deadlineDuration#0",
+        "\"dep\"",
+        "materialized_values%0#0"
+      ]
+    },
+    "180": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "deadlineDuration#0",
+        "goalAmount#0"
+      ],
+      "stack_out": [
+        "goalAmount#0",
+        "deadlineDuration#0",
+        "box_prefixed_key%0#0"
+      ]
+    },
+    "181": {
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "deadlineDuration#0",
+        "goalAmount#0",
+        "maybe_exists%0#0"
+      ],
+      "stack_out": [
+        "goalAmount#0",
+        "deadlineDuration#0",
+        "_%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "182": {
+      "op": "bury 1",
+      "stack_out": [
+        "goalAmount#0",
+        "deadlineDuration#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "184": {
+      "error": "User not initialized",
+      "op": "assert // User not initialized",
+      "stack_out": [
+        "goalAmount#0",
+        "deadlineDuration#0"
+      ]
+    },
+    "185": {
       "op": "dig 1",
       "defined_out": [
-        "deadlin#0",
+        "deadlineDuration#0",
         "goalAmount#0",
         "goalAmount#0 (copy)"
       ],
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0",
+        "deadlineDuration#0",
         "goalAmount#0 (copy)"
       ]
     },
-    "189": {
+    "187": {
       "error": "Goal must be greater than zero",
       "op": "assert // Goal must be greater than zero",
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0"
+        "deadlineDuration#0"
       ]
     },
-    "190": {
+    "188": {
+      "op": "bytec_0 // \"dep\"",
+      "stack_out": [
+        "goalAmount#0",
+        "deadlineDuration#0",
+        "\"dep\""
+      ]
+    },
+    "189": {
       "op": "txn Sender",
       "defined_out": [
-        "deadlin#0",
+        "\"dep\"",
+        "deadlineDuration#0",
         "goalAmount#0",
-        "tmp%1#1"
+        "materialized_values%1#0"
       ],
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0",
-        "tmp%1#1"
+        "deadlineDuration#0",
+        "\"dep\"",
+        "materialized_values%1#0"
+      ]
+    },
+    "191": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%1#0",
+        "deadlineDuration#0",
+        "goalAmount#0"
+      ],
+      "stack_out": [
+        "goalAmount#0",
+        "deadlineDuration#0",
+        "box_prefixed_key%1#0"
       ]
     },
     "192": {
-      "op": "intc_0 // 0",
+      "op": "box_get",
       "defined_out": [
-        "0",
-        "deadlin#0",
+        "aggregate%box_get%1#0",
+        "deadlineDuration#0",
         "goalAmount#0",
-        "tmp%1#1"
+        "userData#0"
       ],
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0",
-        "tmp%1#1",
-        "0"
+        "deadlineDuration#0",
+        "userData#0",
+        "aggregate%box_get%1#0"
       ]
     },
     "193": {
-      "op": "bytec_0 // \"goal\"",
-      "defined_out": [
-        "\"goal\"",
-        "0",
-        "deadlin#0",
-        "goalAmount#0",
-        "tmp%1#1"
-      ],
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0",
-        "tmp%1#1",
-        "0",
-        "\"goal\""
+        "deadlineDuration#0",
+        "userData#0"
       ]
     },
     "194": {
-      "op": "app_local_get_ex",
+      "op": "dup",
       "defined_out": [
-        "deadlin#0",
+        "deadlineDuration#0",
         "goalAmount#0",
-        "maybe_exists%0#0",
-        "maybe_value%0#0"
+        "userData#0",
+        "userData#0 (copy)"
       ],
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0",
-        "maybe_value%0#0",
-        "maybe_exists%0#0"
+        "deadlineDuration#0",
+        "userData#0",
+        "userData#0 (copy)"
       ]
     },
     "195": {
-      "error": "check LocalState exists",
-      "op": "assert // check LocalState exists",
+      "op": "intc_2 // 8",
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0",
-        "maybe_value%0#0"
+        "deadlineDuration#0",
+        "userData#0",
+        "userData#0 (copy)",
+        "8"
       ]
     },
     "196": {
-      "op": "!",
+      "op": "extract_uint64",
       "defined_out": [
-        "deadlin#0",
+        "deadlineDuration#0",
         "goalAmount#0",
-        "tmp%2#1"
+        "userData#0",
+        "values%0#0"
       ],
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0",
-        "tmp%2#1"
+        "deadlineDuration#0",
+        "userData#0",
+        "values%0#0"
       ]
     },
     "197": {
+      "op": "!",
+      "defined_out": [
+        "deadlineDuration#0",
+        "goalAmount#0",
+        "tmp%1#1",
+        "userData#0"
+      ],
+      "stack_out": [
+        "goalAmount#0",
+        "deadlineDuration#0",
+        "userData#0",
+        "tmp%1#1"
+      ]
+    },
+    "198": {
       "error": "Goal already set",
       "op": "assert // Goal already set",
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0"
+        "deadlineDuration#0",
+        "userData#0"
       ]
     },
-    "198": {
-      "op": "txn Sender",
+    "199": {
+      "op": "global LatestTimestamp",
       "defined_out": [
-        "deadlin#0",
+        "deadlineDuration#0",
         "goalAmount#0",
-        "tmp%3#1"
+        "tmp%2#1",
+        "userData#0"
       ],
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0",
-        "tmp%3#1"
-      ]
-    },
-    "200": {
-      "op": "bytec_2 // \"done\"",
-      "defined_out": [
-        "\"done\"",
-        "deadlin#0",
-        "goalAmount#0",
-        "tmp%3#1"
-      ],
-      "stack_out": [
-        "goalAmount#0",
-        "deadlin#0",
-        "tmp%3#1",
-        "\"done\""
+        "deadlineDuration#0",
+        "userData#0",
+        "tmp%2#1"
       ]
     },
     "201": {
-      "op": "intc_0 // 0",
+      "op": "uncover 2",
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0",
-        "tmp%3#1",
-        "\"done\"",
-        "0"
-      ]
-    },
-    "202": {
-      "op": "app_local_put",
-      "stack_out": [
-        "goalAmount#0",
-        "deadlin#0"
+        "userData#0",
+        "tmp%2#1",
+        "deadlineDuration#0"
       ]
     },
     "203": {
-      "op": "txn Sender",
+      "op": "+",
       "defined_out": [
-        "deadlin#0",
+        "deadline#0",
         "goalAmount#0",
-        "tmp%4#0"
+        "userData#0"
       ],
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0",
-        "tmp%4#0"
+        "userData#0",
+        "deadline#0"
       ]
     },
-    "205": {
-      "op": "bytec_0 // \"goal\"",
+    "204": {
+      "op": "dig 1",
       "stack_out": [
         "goalAmount#0",
-        "deadlin#0",
-        "tmp%4#0",
-        "\"goal\""
+        "userData#0",
+        "deadline#0",
+        "userData#0 (copy)"
       ]
     },
     "206": {
-      "op": "uncover 3",
+      "op": "extract 0 8",
+      "defined_out": [
+        "aggregate%extract%1#0",
+        "deadline#0",
+        "goalAmount#0",
+        "userData#0"
+      ],
       "stack_out": [
-        "deadlin#0",
-        "tmp%4#0",
-        "\"goal\"",
-        "goalAmount#0"
-      ]
-    },
-    "208": {
-      "op": "app_local_put",
-      "stack_out": [
-        "deadlin#0"
+        "goalAmount#0",
+        "userData#0",
+        "deadline#0",
+        "aggregate%extract%1#0"
       ]
     },
     "209": {
-      "op": "global LatestTimestamp",
-      "defined_out": [
-        "deadlin#0",
-        "tmp%5#0"
-      ],
+      "op": "dig 2",
       "stack_out": [
-        "deadlin#0",
-        "tmp%5#0"
+        "goalAmount#0",
+        "userData#0",
+        "deadline#0",
+        "aggregate%extract%1#0",
+        "userData#0 (copy)"
       ]
     },
     "211": {
-      "op": "+",
+      "op": "extract 24 8",
       "defined_out": [
-        "deadline#0"
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "deadline#0",
+        "goalAmount#0",
+        "userData#0"
       ],
       "stack_out": [
-        "deadline#0"
-      ]
-    },
-    "212": {
-      "op": "txn Sender",
-      "defined_out": [
+        "goalAmount#0",
+        "userData#0",
         "deadline#0",
-        "tmp%7#0"
-      ],
-      "stack_out": [
-        "deadline#0",
-        "tmp%7#0"
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0"
       ]
     },
     "214": {
-      "op": "bytec 5 // \"dl\"",
-      "defined_out": [
-        "\"dl\"",
-        "deadline#0",
-        "tmp%7#0"
-      ],
+      "op": "uncover 3",
       "stack_out": [
+        "goalAmount#0",
         "deadline#0",
-        "tmp%7#0",
-        "\"dl\""
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "userData#0"
       ]
     },
     "216": {
+      "op": "extract 32 8",
+      "defined_out": [
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "deadline#0",
+        "goalAmount#0"
+      ],
+      "stack_out": [
+        "goalAmount#0",
+        "deadline#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0"
+      ]
+    },
+    "219": {
+      "op": "uncover 4",
+      "stack_out": [
+        "deadline#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "goalAmount#0"
+      ]
+    },
+    "221": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%val_as_bytes%1#0",
+        "deadline#0"
+      ],
+      "stack_out": [
+        "deadline#0",
+        "aggregate%extract%1#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%val_as_bytes%1#0"
+      ]
+    },
+    "222": {
+      "op": "uncover 3",
+      "stack_out": [
+        "deadline#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%val_as_bytes%1#0",
+        "aggregate%extract%1#0"
+      ]
+    },
+    "224": {
+      "op": "swap",
+      "stack_out": [
+        "deadline#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%extract%1#0",
+        "aggregate%val_as_bytes%1#0"
+      ]
+    },
+    "225": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%head%1#0",
+        "deadline#0"
+      ],
+      "stack_out": [
+        "deadline#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%head%1#0"
+      ]
+    },
+    "226": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%head%1#0",
+        "deadline#0"
+      ],
+      "stack_out": [
+        "deadline#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%head%1#0",
+        "0"
+      ]
+    },
+    "227": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%2#0",
+        "deadline#0"
+      ],
+      "stack_out": [
+        "deadline#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%2#0"
+      ]
+    },
+    "228": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%head%2#0",
+        "deadline#0"
+      ],
+      "stack_out": [
+        "deadline#0",
+        "aggregate%extract%2#0",
+        "aggregate%extract%3#0",
+        "aggregate%head%2#0"
+      ]
+    },
+    "229": {
       "op": "uncover 2",
       "stack_out": [
-        "tmp%7#0",
-        "\"dl\"",
+        "deadline#0",
+        "aggregate%extract%3#0",
+        "aggregate%head%2#0",
+        "aggregate%extract%2#0"
+      ]
+    },
+    "231": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%3#0",
+        "aggregate%head%3#0",
+        "deadline#0"
+      ],
+      "stack_out": [
+        "deadline#0",
+        "aggregate%extract%3#0",
+        "aggregate%head%3#0"
+      ]
+    },
+    "232": {
+      "op": "swap",
+      "stack_out": [
+        "deadline#0",
+        "aggregate%head%3#0",
+        "aggregate%extract%3#0"
+      ]
+    },
+    "233": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%4#0",
+        "deadline#0"
+      ],
+      "stack_out": [
+        "deadline#0",
+        "aggregate%head%4#0"
+      ]
+    },
+    "234": {
+      "op": "swap",
+      "stack_out": [
+        "aggregate%head%4#0",
         "deadline#0"
       ]
     },
-    "218": {
-      "op": "app_local_put",
+    "235": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%head%4#0",
+        "aggregate%val_as_bytes%5#0"
+      ],
+      "stack_out": [
+        "aggregate%head%4#0",
+        "aggregate%val_as_bytes%5#0"
+      ]
+    },
+    "236": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%5#0"
+      ],
+      "stack_out": [
+        "aggregate%head%5#0"
+      ]
+    },
+    "237": {
+      "op": "bytec_0 // \"dep\"",
+      "stack_out": [
+        "aggregate%head%5#0",
+        "\"dep\""
+      ]
+    },
+    "238": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"dep\"",
+        "aggregate%head%5#0",
+        "materialized_values%2#0"
+      ],
+      "stack_out": [
+        "aggregate%head%5#0",
+        "\"dep\"",
+        "materialized_values%2#0"
+      ]
+    },
+    "240": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%5#0",
+        "box_prefixed_key%2#0"
+      ],
+      "stack_out": [
+        "aggregate%head%5#0",
+        "box_prefixed_key%2#0"
+      ]
+    },
+    "241": {
+      "op": "swap",
+      "stack_out": [
+        "box_prefixed_key%2#0",
+        "aggregate%head%5#0"
+      ]
+    },
+    "242": {
+      "op": "box_put",
       "stack_out": []
     },
-    "219": {
-      "op": "intc_1 // 1",
+    "243": {
+      "op": "intc_0 // 1",
       "defined_out": [
         "1"
       ],
@@ -886,11 +1045,11 @@
         "1"
       ]
     },
-    "220": {
+    "244": {
       "op": "return",
       "stack_out": []
     },
-    "221": {
+    "245": {
       "subroutine": "smart_contracts/saving_vault/contract.algo.ts::SavingVault.deposit[routing]",
       "params": {},
       "block": "deposit",
@@ -903,8 +1062,8 @@
         "tmp%0#0"
       ]
     },
-    "223": {
-      "op": "intc_1 // 1",
+    "247": {
+      "op": "intc_0 // 1",
       "defined_out": [
         "1",
         "tmp%0#0"
@@ -914,7 +1073,7 @@
         "1"
       ]
     },
-    "224": {
+    "248": {
       "op": "-",
       "defined_out": [
         "payTxn#0"
@@ -923,7 +1082,7 @@
         "payTxn#0"
       ]
     },
-    "225": {
+    "249": {
       "op": "dup",
       "defined_out": [
         "payTxn#0",
@@ -934,7 +1093,7 @@
         "payTxn#0 (copy)"
       ]
     },
-    "226": {
+    "250": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "gtxn_type%0#0",
@@ -945,8 +1104,8 @@
         "gtxn_type%0#0"
       ]
     },
-    "228": {
-      "op": "intc_1 // pay",
+    "252": {
+      "op": "intc_0 // pay",
       "defined_out": [
         "gtxn_type%0#0",
         "pay",
@@ -958,7 +1117,7 @@
         "pay"
       ]
     },
-    "229": {
+    "253": {
       "op": "==",
       "defined_out": [
         "gtxn_type_matches%0#0",
@@ -969,21 +1128,21 @@
         "gtxn_type_matches%0#0"
       ]
     },
-    "230": {
+    "254": {
       "error": "transaction type is pay",
       "op": "assert // transaction type is pay",
       "stack_out": [
         "payTxn#0"
       ]
     },
-    "231": {
+    "255": {
       "op": "dup",
       "stack_out": [
         "payTxn#0",
         "payTxn#0 (copy)"
       ]
     },
-    "232": {
+    "256": {
       "op": "gtxns Receiver",
       "defined_out": [
         "payTxn#0",
@@ -994,7 +1153,7 @@
         "tmp%0#1"
       ]
     },
-    "234": {
+    "258": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "payTxn#0",
@@ -1007,7 +1166,7 @@
         "tmp%1#1"
       ]
     },
-    "236": {
+    "260": {
       "op": "==",
       "defined_out": [
         "payTxn#0",
@@ -1018,14 +1177,14 @@
         "tmp%2#1"
       ]
     },
-    "237": {
+    "261": {
       "error": "Receiver must be the contract address",
       "op": "assert // Receiver must be the contract address",
       "stack_out": [
         "payTxn#0"
       ]
     },
-    "238": {
+    "262": {
       "op": "gtxns Amount",
       "defined_out": [
         "depositAmount#0"
@@ -1034,7 +1193,7 @@
         "depositAmount#0"
       ]
     },
-    "240": {
+    "264": {
       "op": "dup",
       "defined_out": [
         "depositAmount#0",
@@ -1045,785 +1204,1468 @@
         "depositAmount#0 (copy)"
       ]
     },
-    "241": {
+    "265": {
       "error": "Deposit amount must be greater than zero",
       "op": "assert // Deposit amount must be greater than zero",
       "stack_out": [
         "depositAmount#0"
       ]
     },
-    "242": {
-      "op": "txn Sender",
-      "defined_out": [
-        "depositAmount#0",
-        "tmp%5#0"
-      ],
-      "stack_out": [
-        "depositAmount#0",
-        "tmp%5#0"
-      ]
-    },
-    "244": {
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "0",
-        "depositAmount#0",
-        "tmp%5#0"
-      ],
-      "stack_out": [
-        "depositAmount#0",
-        "tmp%5#0",
-        "0"
-      ]
-    },
-    "245": {
-      "op": "bytec_0 // \"goal\"",
-      "defined_out": [
-        "\"goal\"",
-        "0",
-        "depositAmount#0",
-        "tmp%5#0"
-      ],
-      "stack_out": [
-        "depositAmount#0",
-        "tmp%5#0",
-        "0",
-        "\"goal\""
-      ]
-    },
-    "246": {
-      "op": "app_local_get_ex",
-      "defined_out": [
-        "depositAmount#0",
-        "maybe_exists%0#0",
-        "maybe_value%0#0"
-      ],
-      "stack_out": [
-        "depositAmount#0",
-        "maybe_value%0#0",
-        "maybe_exists%0#0"
-      ]
-    },
-    "247": {
-      "error": "check LocalState exists",
-      "op": "assert // check LocalState exists",
-      "stack_out": [
-        "depositAmount#0",
-        "maybe_value%0#0"
-      ]
-    },
-    "248": {
-      "error": "set a saving goal before depositing",
-      "op": "assert // set a saving goal before depositing",
-      "stack_out": [
-        "depositAmount#0"
-      ]
-    },
-    "249": {
-      "op": "txn Sender",
-      "defined_out": [
-        "depositAmount#0",
-        "tmp%8#0"
-      ],
-      "stack_out": [
-        "depositAmount#0",
-        "tmp%8#0"
-      ]
-    },
-    "251": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "depositAmount#0",
-        "tmp%8#0",
-        "0"
-      ]
-    },
-    "252": {
-      "op": "bytec_1 // \"dep\"",
+    "266": {
+      "op": "bytec_0 // \"dep\"",
       "defined_out": [
         "\"dep\"",
-        "0",
-        "depositAmount#0",
-        "tmp%8#0"
+        "depositAmount#0"
       ],
       "stack_out": [
         "depositAmount#0",
-        "tmp%8#0",
-        "0",
-        "\"dep\""
-      ]
-    },
-    "253": {
-      "op": "app_local_get_ex",
-      "defined_out": [
-        "depositAmount#0",
-        "maybe_exists%1#0",
-        "maybe_value%1#0"
-      ],
-      "stack_out": [
-        "depositAmount#0",
-        "maybe_value%1#0",
-        "maybe_exists%1#0"
-      ]
-    },
-    "254": {
-      "error": "check LocalState exists",
-      "op": "assert // check LocalState exists",
-      "stack_out": [
-        "depositAmount#0",
-        "maybe_value%1#0"
-      ]
-    },
-    "255": {
-      "op": "dig 1",
-      "stack_out": [
-        "depositAmount#0",
-        "maybe_value%1#0",
-        "depositAmount#0 (copy)"
-      ]
-    },
-    "257": {
-      "op": "+",
-      "defined_out": [
-        "depositAmount#0",
-        "newTotal#0"
-      ],
-      "stack_out": [
-        "depositAmount#0",
-        "newTotal#0"
-      ]
-    },
-    "258": {
-      "op": "txn Sender",
-      "defined_out": [
-        "depositAmount#0",
-        "newTotal#0",
-        "tmp%10#0"
-      ],
-      "stack_out": [
-        "depositAmount#0",
-        "newTotal#0",
-        "tmp%10#0"
-      ]
-    },
-    "260": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "depositAmount#0",
-        "newTotal#0",
-        "tmp%10#0",
-        "0"
-      ]
-    },
-    "261": {
-      "op": "bytec_0 // \"goal\"",
-      "stack_out": [
-        "depositAmount#0",
-        "newTotal#0",
-        "tmp%10#0",
-        "0",
-        "\"goal\""
-      ]
-    },
-    "262": {
-      "op": "app_local_get_ex",
-      "defined_out": [
-        "depositAmount#0",
-        "maybe_exists%2#0",
-        "newTotal#0",
-        "userGoal#0"
-      ],
-      "stack_out": [
-        "depositAmount#0",
-        "newTotal#0",
-        "userGoal#0",
-        "maybe_exists%2#0"
-      ]
-    },
-    "263": {
-      "error": "check LocalState exists",
-      "op": "assert // check LocalState exists",
-      "stack_out": [
-        "depositAmount#0",
-        "newTotal#0",
-        "userGoal#0"
-      ]
-    },
-    "264": {
-      "op": "txn Sender",
-      "defined_out": [
-        "depositAmount#0",
-        "newTotal#0",
-        "tmp%11#0",
-        "userGoal#0"
-      ],
-      "stack_out": [
-        "depositAmount#0",
-        "newTotal#0",
-        "userGoal#0",
-        "tmp%11#0"
-      ]
-    },
-    "266": {
-      "op": "bytec_1 // \"dep\"",
-      "stack_out": [
-        "depositAmount#0",
-        "newTotal#0",
-        "userGoal#0",
-        "tmp%11#0",
         "\"dep\""
       ]
     },
     "267": {
-      "op": "dig 3",
+      "op": "txn Sender",
       "defined_out": [
         "\"dep\"",
         "depositAmount#0",
-        "newTotal#0",
-        "newTotal#0 (copy)",
-        "tmp%11#0",
-        "userGoal#0"
+        "materialized_values%0#0"
       ],
       "stack_out": [
         "depositAmount#0",
-        "newTotal#0",
-        "userGoal#0",
-        "tmp%11#0",
         "\"dep\"",
-        "newTotal#0 (copy)"
+        "materialized_values%0#0"
       ]
     },
     "269": {
-      "op": "app_local_put",
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%0#0",
+        "depositAmount#0"
+      ],
       "stack_out": [
         "depositAmount#0",
-        "newTotal#0",
-        "userGoal#0"
+        "box_prefixed_key%0#0"
       ]
     },
     "270": {
-      "op": "txn Sender",
+      "op": "box_len",
       "defined_out": [
+        "_%0#0",
         "depositAmount#0",
-        "newTotal#0",
-        "tmp%12#0",
-        "userGoal#0"
+        "maybe_exists%0#0"
       ],
       "stack_out": [
         "depositAmount#0",
-        "newTotal#0",
-        "userGoal#0",
-        "tmp%12#0"
+        "_%0#0",
+        "maybe_exists%0#0"
       ]
     },
-    "272": {
-      "op": "intc_0 // 0",
+    "271": {
+      "op": "bury 1",
       "stack_out": [
         "depositAmount#0",
-        "newTotal#0",
-        "userGoal#0",
-        "tmp%12#0",
-        "0"
+        "maybe_exists%0#0"
       ]
     },
     "273": {
-      "op": "bytec 4 // \"totalS\"",
-      "defined_out": [
-        "\"totalS\"",
-        "0",
-        "depositAmount#0",
-        "newTotal#0",
-        "tmp%12#0",
-        "userGoal#0"
-      ],
+      "error": "User not initialized",
+      "op": "assert // User not initialized",
       "stack_out": [
-        "depositAmount#0",
-        "newTotal#0",
-        "userGoal#0",
-        "tmp%12#0",
-        "0",
-        "\"totalS\""
-      ]
-    },
-    "275": {
-      "op": "app_local_get_ex",
-      "defined_out": [
-        "depositAmount#0",
-        "maybe_exists%3#0",
-        "maybe_value%3#0",
-        "newTotal#0",
-        "userGoal#0"
-      ],
-      "stack_out": [
-        "depositAmount#0",
-        "newTotal#0",
-        "userGoal#0",
-        "maybe_value%3#0",
-        "maybe_exists%3#0"
-      ]
-    },
-    "276": {
-      "error": "check LocalState exists",
-      "op": "assert // check LocalState exists",
-      "stack_out": [
-        "depositAmount#0",
-        "newTotal#0",
-        "userGoal#0",
-        "maybe_value%3#0"
-      ]
-    },
-    "277": {
-      "op": "uncover 3",
-      "stack_out": [
-        "newTotal#0",
-        "userGoal#0",
-        "maybe_value%3#0",
         "depositAmount#0"
       ]
     },
-    "279": {
-      "op": "+",
+    "274": {
+      "op": "bytec_0 // \"dep\"",
+      "stack_out": [
+        "depositAmount#0",
+        "\"dep\""
+      ]
+    },
+    "275": {
+      "op": "txn Sender",
       "defined_out": [
-        "newTotal#0",
-        "tmp%13#0",
-        "userGoal#0"
+        "\"dep\"",
+        "depositAmount#0",
+        "materialized_values%1#0"
       ],
       "stack_out": [
-        "newTotal#0",
-        "userGoal#0",
-        "tmp%13#0"
+        "depositAmount#0",
+        "\"dep\"",
+        "materialized_values%1#0"
+      ]
+    },
+    "277": {
+      "op": "concat",
+      "defined_out": [
+        "box_prefixed_key%1#0",
+        "depositAmount#0"
+      ],
+      "stack_out": [
+        "depositAmount#0",
+        "box_prefixed_key%1#0"
+      ]
+    },
+    "278": {
+      "op": "box_get",
+      "defined_out": [
+        "aggregate%box_get%1#0",
+        "depositAmount#0",
+        "userData#0"
+      ],
+      "stack_out": [
+        "depositAmount#0",
+        "userData#0",
+        "aggregate%box_get%1#0"
+      ]
+    },
+    "279": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "depositAmount#0",
+        "userData#0"
       ]
     },
     "280": {
-      "op": "txn Sender",
+      "op": "dup",
       "defined_out": [
-        "newTotal#0",
-        "tmp%13#0",
-        "tmp%14#0",
-        "userGoal#0"
+        "depositAmount#0",
+        "userData#0",
+        "userData#0 (copy)"
       ],
       "stack_out": [
-        "newTotal#0",
-        "userGoal#0",
-        "tmp%13#0",
-        "tmp%14#0"
+        "depositAmount#0",
+        "userData#0",
+        "userData#0 (copy)"
+      ]
+    },
+    "281": {
+      "op": "intc_2 // 8",
+      "defined_out": [
+        "8",
+        "depositAmount#0",
+        "userData#0",
+        "userData#0 (copy)"
+      ],
+      "stack_out": [
+        "depositAmount#0",
+        "userData#0",
+        "userData#0 (copy)",
+        "8"
       ]
     },
     "282": {
-      "op": "bytec 4 // \"totalS\"",
+      "op": "extract_uint64",
+      "defined_out": [
+        "depositAmount#0",
+        "newGoal#0",
+        "userData#0"
+      ],
       "stack_out": [
-        "newTotal#0",
-        "userGoal#0",
-        "tmp%13#0",
-        "tmp%14#0",
-        "\"totalS\""
+        "depositAmount#0",
+        "userData#0",
+        "newGoal#0"
+      ]
+    },
+    "283": {
+      "op": "dup",
+      "stack_out": [
+        "depositAmount#0",
+        "userData#0",
+        "newGoal#0",
+        "newGoal#0"
       ]
     },
     "284": {
-      "op": "uncover 2",
+      "op": "cover 3",
+      "defined_out": [
+        "depositAmount#0",
+        "newGoal#0",
+        "userData#0"
+      ],
       "stack_out": [
-        "newTotal#0",
-        "userGoal#0",
-        "tmp%14#0",
-        "\"totalS\"",
-        "tmp%13#0"
+        "newGoal#0",
+        "depositAmount#0",
+        "userData#0",
+        "newGoal#0"
       ]
     },
     "286": {
-      "op": "app_local_put",
+      "op": "dup",
+      "defined_out": [
+        "depositAmount#0",
+        "newGoal#0",
+        "newGoal#0 (copy)",
+        "userData#0"
+      ],
       "stack_out": [
-        "newTotal#0",
-        "userGoal#0"
+        "newGoal#0",
+        "depositAmount#0",
+        "userData#0",
+        "newGoal#0",
+        "newGoal#0 (copy)"
       ]
     },
     "287": {
-      "op": ">=",
-      "defined_out": [
-        "tmp%15#0"
-      ],
+      "error": "Set a saving goal before depositing",
+      "op": "assert // Set a saving goal before depositing",
       "stack_out": [
-        "tmp%15#0"
+        "newGoal#0",
+        "depositAmount#0",
+        "userData#0",
+        "newGoal#0"
       ]
     },
     "288": {
-      "op": "bz deposit_after_if_else@4",
-      "stack_out": []
-    },
-    "291": {
-      "op": "txn Sender",
-      "defined_out": [
-        "tmp%16#0"
-      ],
+      "op": "dig 1",
       "stack_out": [
-        "tmp%16#0"
+        "newGoal#0",
+        "depositAmount#0",
+        "userData#0",
+        "newGoal#0",
+        "userData#0 (copy)"
       ]
     },
-    "293": {
-      "op": "intc_0 // 0",
+    "290": {
+      "op": "intc_1 // 0",
       "stack_out": [
-        "tmp%16#0",
+        "newGoal#0",
+        "depositAmount#0",
+        "userData#0",
+        "newGoal#0",
+        "userData#0 (copy)",
         "0"
+      ]
+    },
+    "291": {
+      "op": "extract_uint64",
+      "defined_out": [
+        "depositAmount#0",
+        "newGoal#0",
+        "userData#0",
+        "values%1#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "depositAmount#0",
+        "userData#0",
+        "newGoal#0",
+        "values%1#0"
+      ]
+    },
+    "292": {
+      "op": "dig 3",
+      "stack_out": [
+        "newGoal#0",
+        "depositAmount#0",
+        "userData#0",
+        "newGoal#0",
+        "values%1#0",
+        "depositAmount#0 (copy)"
       ]
     },
     "294": {
-      "op": "bytec_2 // \"done\"",
+      "op": "+",
       "defined_out": [
-        "\"done\"",
-        "0",
-        "tmp%16#0"
+        "depositAmount#0",
+        "newGoal#0",
+        "newTotal#0",
+        "userData#0"
       ],
       "stack_out": [
-        "tmp%16#0",
-        "0",
-        "\"done\""
+        "newGoal#0",
+        "depositAmount#0",
+        "userData#0",
+        "newGoal#0",
+        "newTotal#0"
       ]
     },
     "295": {
-      "op": "app_local_get_ex",
-      "defined_out": [
-        "maybe_exists%4#0",
-        "maybe_value%4#0"
-      ],
+      "op": "dup",
       "stack_out": [
-        "maybe_value%4#0",
-        "maybe_exists%4#0"
+        "newGoal#0",
+        "depositAmount#0",
+        "userData#0",
+        "newGoal#0",
+        "newTotal#0",
+        "newTotal#0 (copy)"
       ]
     },
     "296": {
-      "error": "check LocalState exists",
-      "op": "assert // check LocalState exists",
+      "op": "cover 3",
       "stack_out": [
-        "maybe_value%4#0"
+        "newGoal#0",
+        "depositAmount#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0",
+        "newTotal#0"
       ]
     },
-    "297": {
-      "op": "bnz deposit_after_if_else@4",
-      "stack_out": []
-    },
-    "300": {
-      "op": "txn Sender",
+    "298": {
+      "op": "cover 4",
       "defined_out": [
-        "tmp%18#0"
+        "depositAmount#0",
+        "newGoal#0",
+        "newTotal#0",
+        "userData#0"
       ],
       "stack_out": [
-        "tmp%18#0"
+        "newGoal#0",
+        "newTotal#0",
+        "depositAmount#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0"
+      ]
+    },
+    "300": {
+      "op": "dig 1",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "depositAmount#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0",
+        "userData#0 (copy)"
       ]
     },
     "302": {
-      "op": "bytec_2 // \"done\"",
+      "op": "pushint 24 // 24",
+      "defined_out": [
+        "24",
+        "depositAmount#0",
+        "newGoal#0",
+        "newTotal#0",
+        "userData#0",
+        "userData#0 (copy)"
+      ],
       "stack_out": [
-        "tmp%18#0",
-        "\"done\""
-      ]
-    },
-    "303": {
-      "op": "intc_1 // 1",
-      "stack_out": [
-        "tmp%18#0",
-        "\"done\"",
-        "1"
+        "newGoal#0",
+        "newTotal#0",
+        "depositAmount#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0",
+        "userData#0 (copy)",
+        "24"
       ]
     },
     "304": {
-      "op": "app_local_put",
-      "stack_out": []
-    },
-    "305": {
-      "op": "txn Sender",
+      "op": "extract_uint64",
       "defined_out": [
-        "tmp%19#0"
+        "depositAmount#0",
+        "newGoal#0",
+        "newTotal#0",
+        "userData#0",
+        "values%2#0"
       ],
       "stack_out": [
-        "tmp%19#0"
+        "newGoal#0",
+        "newTotal#0",
+        "depositAmount#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0",
+        "values%2#0"
+      ]
+    },
+    "305": {
+      "op": "uncover 4",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0",
+        "values%2#0",
+        "depositAmount#0"
       ]
     },
     "307": {
-      "op": "intc_0 // 0",
+      "op": "+",
+      "defined_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "userData#0"
+      ],
       "stack_out": [
-        "tmp%19#0",
-        "0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0",
+        "newTotalSaving#0"
       ]
     },
     "308": {
-      "op": "bytec_3 // \"goalreached\"",
+      "op": "cover 3",
       "defined_out": [
-        "\"goalreached\"",
-        "0",
-        "tmp%19#0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "userData#0"
       ],
       "stack_out": [
-        "tmp%19#0",
-        "0",
-        "\"goalreached\""
-      ]
-    },
-    "309": {
-      "op": "app_local_get_ex",
-      "defined_out": [
-        "maybe_exists%5#0",
-        "maybe_value%5#0"
-      ],
-      "stack_out": [
-        "maybe_value%5#0",
-        "maybe_exists%5#0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0"
       ]
     },
     "310": {
-      "error": "check LocalState exists",
-      "op": "assert // check LocalState exists",
+      "op": "dig 1",
       "stack_out": [
-        "maybe_value%5#0"
-      ]
-    },
-    "311": {
-      "op": "intc_1 // 1",
-      "stack_out": [
-        "maybe_value%5#0",
-        "1"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0",
+        "userData#0 (copy)"
       ]
     },
     "312": {
-      "op": "+",
+      "op": "intc_3 // 16",
       "defined_out": [
-        "tmp%20#0"
+        "16",
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "userData#0",
+        "userData#0 (copy)"
       ],
       "stack_out": [
-        "tmp%20#0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0",
+        "userData#0 (copy)",
+        "16"
       ]
     },
     "313": {
-      "op": "txn Sender",
+      "op": "extract_uint64",
       "defined_out": [
-        "tmp%20#0",
-        "tmp%21#0"
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "userData#0"
       ],
       "stack_out": [
-        "tmp%20#0",
-        "tmp%21#0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0",
+        "newGoalReached#0"
       ]
     },
-    "315": {
-      "op": "bytec_3 // \"goalreached\"",
+    "314": {
+      "op": "cover 3",
+      "defined_out": [
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "userData#0"
+      ],
       "stack_out": [
-        "tmp%20#0",
-        "tmp%21#0",
-        "\"goalreached\""
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0"
       ]
     },
     "316": {
-      "op": "uncover 2",
+      "op": "dig 1",
       "stack_out": [
-        "tmp%21#0",
-        "\"goalreached\"",
-        "tmp%20#0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0",
+        "userData#0 (copy)"
       ]
     },
     "318": {
-      "op": "app_local_put",
-      "stack_out": []
-    },
-    "319": {
-      "op": "txn Sender",
+      "op": "pushint 32 // 32",
       "defined_out": [
-        "tmp%22#0"
+        "32",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "userData#0",
+        "userData#0 (copy)"
       ],
       "stack_out": [
-        "tmp%22#0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0",
+        "userData#0 (copy)",
+        "32"
+      ]
+    },
+    "320": {
+      "op": "extract_uint64",
+      "defined_out": [
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0",
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0",
+        "newTotalGoalsReached#0"
       ]
     },
     "321": {
-      "op": "bytec_0 // \"goal\"",
+      "op": "cover 3",
+      "defined_out": [
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0",
+        "userData#0"
+      ],
       "stack_out": [
-        "tmp%22#0",
-        "\"goal\""
-      ]
-    },
-    "322": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "tmp%22#0",
-        "\"goal\"",
-        "0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newTotal#0",
+        "userData#0",
+        "newGoal#0"
       ]
     },
     "323": {
-      "op": "app_local_put",
-      "stack_out": []
+      "op": "swap",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newTotal#0",
+        "newGoal#0",
+        "userData#0"
+      ]
     },
     "324": {
-      "op": "txn Sender",
+      "op": "pushint 40 // 40",
       "defined_out": [
-        "tmp%23#0"
+        "40",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0",
+        "userData#0"
       ],
       "stack_out": [
-        "tmp%23#0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newTotal#0",
+        "newGoal#0",
+        "userData#0",
+        "40"
       ]
     },
     "326": {
-      "op": "bytec 5 // \"dl\"",
+      "op": "extract_uint64",
       "defined_out": [
-        "\"dl\"",
-        "tmp%23#0"
+        "newDeadline#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
       ],
       "stack_out": [
-        "tmp%23#0",
-        "\"dl\""
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newTotal#0",
+        "newGoal#0",
+        "newDeadline#0"
       ]
     },
-    "328": {
-      "op": "intc_0 // 0",
+    "327": {
+      "op": "cover 2",
+      "defined_out": [
+        "newDeadline#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
       "stack_out": [
-        "tmp%23#0",
-        "\"dl\"",
-        "0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "newTotal#0",
+        "newGoal#0"
       ]
     },
     "329": {
-      "op": "app_local_put",
-      "stack_out": []
-    },
-    "330": {
-      "block": "deposit_after_if_else@4",
-      "stack_in": [],
-      "op": "txn Sender",
+      "op": ">=",
       "defined_out": [
-        "tmp%24#0"
+        "newDeadline#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0",
+        "tmp%9#0"
       ],
       "stack_out": [
-        "tmp%24#0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "tmp%9#0"
       ]
     },
-    "332": {
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "0",
-        "tmp%24#0"
-      ],
+    "330": {
+      "op": "bz deposit_after_if_else@4",
       "stack_out": [
-        "tmp%24#0",
-        "0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0"
       ]
     },
     "333": {
-      "op": "bytec_3 // \"goalreached\"",
-      "defined_out": [
-        "\"goalreached\"",
-        "0",
-        "tmp%24#0"
-      ],
+      "op": "dig 2",
       "stack_out": [
-        "tmp%24#0",
-        "0",
-        "\"goalreached\""
-      ]
-    },
-    "334": {
-      "op": "app_local_get_ex",
-      "defined_out": [
-        "maybe_exists%6#0",
-        "maybe_value%6#0"
-      ],
-      "stack_out": [
-        "maybe_value%6#0",
-        "maybe_exists%6#0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "newGoalReached#0"
       ]
     },
     "335": {
-      "error": "check LocalState exists",
-      "op": "assert // check LocalState exists",
+      "op": "bnz deposit_after_if_else@4",
       "stack_out": [
-        "maybe_value%6#0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0"
       ]
     },
-    "336": {
-      "op": "itob",
-      "defined_out": [
-        "aggregate%val_as_bytes%0#0"
-      ],
+    "338": {
+      "op": "intc_0 // 1",
       "stack_out": [
-        "aggregate%val_as_bytes%0#0"
-      ]
-    },
-    "337": {
-      "op": "bytec 6 // 0x151f7c75",
-      "defined_out": [
-        "0x151f7c75",
-        "aggregate%val_as_bytes%0#0"
-      ],
-      "stack_out": [
-        "aggregate%val_as_bytes%0#0",
-        "0x151f7c75"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "newGoalReached#0"
       ]
     },
     "339": {
-      "op": "swap",
+      "op": "bury 3",
       "stack_out": [
-        "0x151f7c75",
-        "aggregate%val_as_bytes%0#0"
-      ]
-    },
-    "340": {
-      "op": "concat",
-      "defined_out": [
-        "tmp%3#0"
-      ],
-      "stack_out": [
-        "tmp%3#0"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0"
       ]
     },
     "341": {
-      "op": "log",
-      "stack_out": []
-    },
-    "342": {
-      "op": "intc_1 // 1",
-      "defined_out": [
-        "1"
-      ],
+      "op": "dig 1",
       "stack_out": [
-        "1"
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "newTotalGoalsReached#0"
       ]
     },
     "343": {
-      "op": "return",
-      "stack_out": []
+      "op": "intc_0 // 1",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "newTotalGoalsReached#0",
+        "1"
+      ]
     },
     "344": {
+      "op": "+",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "newTotalGoalsReached#0"
+      ]
+    },
+    "345": {
+      "op": "bury 2",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0"
+      ]
+    },
+    "347": {
+      "op": "intc_1 // 0",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "newGoal#0"
+      ]
+    },
+    "348": {
+      "op": "bury 6",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0"
+      ]
+    },
+    "350": {
+      "op": "intc_1 // 0",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "newDeadline#0"
+      ]
+    },
+    "351": {
+      "op": "bury 1",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0"
+      ]
+    },
+    "353": {
+      "block": "deposit_after_if_else@4",
+      "stack_in": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0"
+      ],
+      "op": "dig 4",
+      "defined_out": [
+        "newTotal#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "newTotal#0"
+      ]
+    },
+    "355": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "newTotal#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "356": {
+      "op": "dig 6",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "newGoal#0",
+        "newTotal#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%0#0",
+        "newGoal#0"
+      ]
+    },
+    "358": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%0#0",
+        "aggregate%val_as_bytes%1#0",
+        "newGoal#0",
+        "newTotal#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%0#0",
+        "aggregate%val_as_bytes%1#0"
+      ]
+    },
+    "359": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%1#0",
+        "newGoal#0",
+        "newTotal#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%head%1#0"
+      ]
+    },
+    "360": {
+      "op": "dig 3",
+      "defined_out": [
+        "aggregate%head%1#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%head%1#0",
+        "newGoalReached#0"
+      ]
+    },
+    "362": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%2#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%2#0"
+      ]
+    },
+    "363": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%2#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%head%2#0"
+      ]
+    },
+    "364": {
+      "op": "dig 4",
+      "defined_out": [
+        "aggregate%head%2#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%head%2#0",
+        "newTotalSaving#0"
+      ]
+    },
+    "366": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%head%2#0",
+        "aggregate%val_as_bytes%3#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%head%2#0",
+        "aggregate%val_as_bytes%3#0"
+      ]
+    },
+    "367": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%3#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%head%3#0"
+      ]
+    },
+    "368": {
+      "op": "dig 2",
+      "defined_out": [
+        "aggregate%head%3#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%head%3#0",
+        "newTotalGoalsReached#0"
+      ]
+    },
+    "370": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%head%3#0",
+        "aggregate%val_as_bytes%4#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%head%3#0",
+        "aggregate%val_as_bytes%4#0"
+      ]
+    },
+    "371": {
+      "op": "swap",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%4#0",
+        "aggregate%head%3#0"
+      ]
+    },
+    "372": {
+      "op": "dig 1",
+      "defined_out": [
+        "aggregate%head%3#0",
+        "aggregate%val_as_bytes%4#0",
+        "aggregate%val_as_bytes%4#0 (copy)",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%4#0",
+        "aggregate%head%3#0",
+        "aggregate%val_as_bytes%4#0 (copy)"
+      ]
+    },
+    "374": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%4#0",
+        "aggregate%val_as_bytes%4#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%4#0",
+        "aggregate%head%4#0"
+      ]
+    },
+    "375": {
+      "op": "dig 2",
+      "defined_out": [
+        "aggregate%head%4#0",
+        "aggregate%val_as_bytes%4#0",
+        "newDeadline#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%4#0",
+        "aggregate%head%4#0",
+        "newDeadline#0"
+      ]
+    },
+    "377": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%head%4#0",
+        "aggregate%val_as_bytes%4#0",
+        "aggregate%val_as_bytes%5#0",
+        "newDeadline#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%4#0",
+        "aggregate%head%4#0",
+        "aggregate%val_as_bytes%5#0"
+      ]
+    },
+    "378": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%5#0",
+        "aggregate%val_as_bytes%4#0",
+        "newDeadline#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%4#0",
+        "aggregate%head%5#0"
+      ]
+    },
+    "379": {
+      "op": "bytec_0 // \"dep\"",
+      "defined_out": [
+        "\"dep\"",
+        "aggregate%head%5#0",
+        "aggregate%val_as_bytes%4#0",
+        "newDeadline#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%4#0",
+        "aggregate%head%5#0",
+        "\"dep\""
+      ]
+    },
+    "380": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"dep\"",
+        "aggregate%head%5#0",
+        "aggregate%val_as_bytes%4#0",
+        "materialized_values%2#0",
+        "newDeadline#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%4#0",
+        "aggregate%head%5#0",
+        "\"dep\"",
+        "materialized_values%2#0"
+      ]
+    },
+    "382": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%5#0",
+        "aggregate%val_as_bytes%4#0",
+        "box_prefixed_key%2#0",
+        "newDeadline#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%4#0",
+        "aggregate%head%5#0",
+        "box_prefixed_key%2#0"
+      ]
+    },
+    "383": {
+      "op": "swap",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%4#0",
+        "box_prefixed_key%2#0",
+        "aggregate%head%5#0"
+      ]
+    },
+    "384": {
+      "op": "box_put",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%4#0"
+      ]
+    },
+    "385": {
+      "op": "bytec_2 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%val_as_bytes%4#0",
+        "newDeadline#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "aggregate%val_as_bytes%4#0",
+        "0x151f7c75"
+      ]
+    },
+    "386": {
+      "op": "swap",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "0x151f7c75",
+        "aggregate%val_as_bytes%4#0"
+      ]
+    },
+    "387": {
+      "op": "concat",
+      "defined_out": [
+        "newDeadline#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0",
+        "tmp%3#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "tmp%3#0"
+      ]
+    },
+    "388": {
+      "op": "log",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0"
+      ]
+    },
+    "389": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "newDeadline#0",
+        "newGoal#0",
+        "newGoalReached#0",
+        "newTotal#0",
+        "newTotalGoalsReached#0",
+        "newTotalSaving#0"
+      ],
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0",
+        "1"
+      ]
+    },
+    "390": {
+      "op": "return",
+      "stack_out": [
+        "newGoal#0",
+        "newTotal#0",
+        "newTotalSaving#0",
+        "newGoalReached#0",
+        "newTotalGoalsReached#0",
+        "newDeadline#0"
+      ]
+    },
+    "391": {
       "subroutine": "smart_contracts/saving_vault/contract.algo.ts::SavingVault.withdraw[routing]",
       "params": {},
       "block": "withdraw",
       "stack_in": [],
+      "op": "pushbytes \"\"",
+      "stack_out": [
+        "newGoalReached#0"
+      ]
+    },
+    "393": {
+      "op": "dupn 3",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0"
+      ]
+    },
+    "395": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "tmp%0#0"
       ],
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
         "tmp%0#0"
       ]
     },
-    "347": {
+    "398": {
       "op": "dup",
       "defined_out": [
         "tmp%0#0",
         "tmp%0#0 (copy)"
       ],
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
         "tmp%0#0",
         "tmp%0#0 (copy)"
       ]
     },
-    "348": {
+    "399": {
       "op": "len",
       "defined_out": [
         "len%0#0",
         "tmp%0#0"
       ],
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
         "tmp%0#0",
         "len%0#0"
       ]
     },
-    "349": {
+    "400": {
       "op": "intc_2 // 8",
       "defined_out": [
         "8",
@@ -1831,537 +2673,2281 @@
         "tmp%0#0"
       ],
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
         "tmp%0#0",
         "len%0#0",
         "8"
       ]
     },
-    "350": {
+    "401": {
       "op": "==",
       "defined_out": [
         "eq%0#0",
         "tmp%0#0"
       ],
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
         "tmp%0#0",
         "eq%0#0"
       ]
     },
-    "351": {
+    "402": {
       "error": "invalid number of bytes for arc4.uint64",
       "op": "assert // invalid number of bytes for arc4.uint64",
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
         "tmp%0#0"
       ]
     },
-    "352": {
+    "403": {
       "op": "btoi",
       "defined_out": [
         "amount#0"
       ],
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
         "amount#0"
       ]
     },
-    "353": {
-      "op": "txn Sender",
-      "defined_out": [
-        "amount#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "amount#0",
-        "tmp%0#1"
-      ]
-    },
-    "355": {
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "0",
-        "amount#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "amount#0",
-        "tmp%0#1",
-        "0"
-      ]
-    },
-    "356": {
-      "op": "bytec_1 // \"dep\"",
-      "defined_out": [
-        "\"dep\"",
-        "0",
-        "amount#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "amount#0",
-        "tmp%0#1",
-        "0",
-        "\"dep\""
-      ]
-    },
-    "357": {
-      "op": "app_local_get_ex",
-      "defined_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "maybe_exists%0#0"
-      ],
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "maybe_exists%0#0"
-      ]
-    },
-    "358": {
-      "error": "check LocalState exists",
-      "op": "assert // check LocalState exists",
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0"
-      ]
-    },
-    "359": {
+    "404": {
       "op": "dup",
       "defined_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "depositedAmount#0 (copy)"
-      ],
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "depositedAmount#0 (copy)"
-      ]
-    },
-    "360": {
-      "error": "No deposits found for this accout",
-      "op": "assert // No deposits found for this accout",
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0"
-      ]
-    },
-    "361": {
-      "op": "dig 1",
-      "defined_out": [
-        "amount#0",
-        "amount#0 (copy)",
-        "depositedAmount#0"
-      ],
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "amount#0 (copy)"
-      ]
-    },
-    "363": {
-      "error": "amount must be greather than zero",
-      "op": "assert // amount must be greather than zero",
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0"
-      ]
-    },
-    "364": {
-      "op": "dup2",
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "amount#0 (copy)",
-        "depositedAmount#0 (copy)"
-      ]
-    },
-    "365": {
-      "op": "<=",
-      "defined_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "tmp%3#1"
-      ],
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "tmp%3#1"
-      ]
-    },
-    "366": {
-      "error": "amount greather than the deposited amount",
-      "op": "assert // amount greather than the deposited amount",
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0"
-      ]
-    },
-    "367": {
-      "op": "itxn_begin"
-    },
-    "368": {
-      "op": "txn Sender",
-      "defined_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "inner_txn_params%0%%param_Receiver_idx_0#0"
-      ],
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "inner_txn_params%0%%param_Receiver_idx_0#0"
-      ]
-    },
-    "370": {
-      "op": "dig 2",
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "inner_txn_params%0%%param_Receiver_idx_0#0",
-        "amount#0 (copy)"
-      ]
-    },
-    "372": {
-      "op": "itxn_field Amount",
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "inner_txn_params%0%%param_Receiver_idx_0#0"
-      ]
-    },
-    "374": {
-      "op": "itxn_field Receiver",
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0"
-      ]
-    },
-    "376": {
-      "op": "intc_1 // 1",
-      "defined_out": [
-        "1",
-        "amount#0",
-        "depositedAmount#0"
-      ],
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "1"
-      ]
-    },
-    "377": {
-      "op": "itxn_field TypeEnum",
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0"
-      ]
-    },
-    "379": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "0"
-      ]
-    },
-    "380": {
-      "op": "itxn_field Fee",
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0"
-      ]
-    },
-    "382": {
-      "op": "itxn_submit"
-    },
-    "383": {
-      "op": "itxn Amount",
-      "defined_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "result.Amount#0"
-      ],
-      "stack_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "result.Amount#0"
-      ]
-    },
-    "385": {
-      "op": "cover 2",
-      "defined_out": [
-        "amount#0",
-        "depositedAmount#0",
-        "result.Amount#0"
-      ],
-      "stack_out": [
-        "result.Amount#0",
-        "amount#0",
-        "depositedAmount#0"
-      ]
-    },
-    "387": {
-      "op": "swap",
-      "stack_out": [
-        "result.Amount#0",
-        "depositedAmount#0",
         "amount#0"
-      ]
-    },
-    "388": {
-      "op": "-",
-      "defined_out": [
-        "remaining#0",
-        "result.Amount#0"
       ],
       "stack_out": [
-        "result.Amount#0",
-        "remaining#0"
-      ]
-    },
-    "389": {
-      "op": "txn Sender",
-      "defined_out": [
+        "newGoalReached#0",
         "remaining#0",
         "result.Amount#0",
-        "tmp%5#0"
-      ],
-      "stack_out": [
-        "result.Amount#0",
-        "remaining#0",
-        "tmp%5#0"
-      ]
-    },
-    "391": {
-      "op": "bytec_1 // \"dep\"",
-      "stack_out": [
-        "result.Amount#0",
-        "remaining#0",
-        "tmp%5#0",
-        "\"dep\""
-      ]
-    },
-    "392": {
-      "op": "dig 2",
-      "defined_out": [
-        "\"dep\"",
-        "remaining#0",
-        "remaining#0 (copy)",
-        "result.Amount#0",
-        "tmp%5#0"
-      ],
-      "stack_out": [
-        "result.Amount#0",
-        "remaining#0",
-        "tmp%5#0",
-        "\"dep\"",
-        "remaining#0 (copy)"
-      ]
-    },
-    "394": {
-      "op": "app_local_put",
-      "stack_out": [
-        "result.Amount#0",
-        "remaining#0"
-      ]
-    },
-    "395": {
-      "op": "txn Sender",
-      "defined_out": [
-        "remaining#0",
-        "result.Amount#0",
-        "tmp%6#0"
-      ],
-      "stack_out": [
-        "result.Amount#0",
-        "remaining#0",
-        "tmp%6#0"
-      ]
-    },
-    "397": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "result.Amount#0",
-        "remaining#0",
-        "tmp%6#0",
-        "0"
-      ]
-    },
-    "398": {
-      "op": "bytec_0 // \"goal\"",
-      "defined_out": [
-        "\"goal\"",
-        "0",
-        "remaining#0",
-        "result.Amount#0",
-        "tmp%6#0"
-      ],
-      "stack_out": [
-        "result.Amount#0",
-        "remaining#0",
-        "tmp%6#0",
-        "0",
-        "\"goal\""
-      ]
-    },
-    "399": {
-      "op": "app_local_get_ex",
-      "defined_out": [
-        "maybe_exists%1#0",
-        "maybe_value%1#0",
-        "remaining#0",
-        "result.Amount#0"
-      ],
-      "stack_out": [
-        "result.Amount#0",
-        "remaining#0",
-        "maybe_value%1#0",
-        "maybe_exists%1#0"
-      ]
-    },
-    "400": {
-      "error": "check LocalState exists",
-      "op": "assert // check LocalState exists",
-      "stack_out": [
-        "result.Amount#0",
-        "remaining#0",
-        "maybe_value%1#0"
-      ]
-    },
-    "401": {
-      "op": "<",
-      "defined_out": [
-        "result.Amount#0",
-        "tmp%7#0"
-      ],
-      "stack_out": [
-        "result.Amount#0",
-        "tmp%7#0"
-      ]
-    },
-    "402": {
-      "op": "bz withdraw_after_if_else@4",
-      "stack_out": [
-        "result.Amount#0"
+        "values%4#0",
+        "amount#0",
+        "amount#0"
       ]
     },
     "405": {
-      "op": "txn Sender",
+      "op": "bytec_0 // \"dep\"",
       "defined_out": [
-        "result.Amount#0",
-        "tmp%8#0"
+        "\"dep\"",
+        "amount#0"
       ],
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
         "result.Amount#0",
-        "tmp%8#0"
+        "values%4#0",
+        "amount#0",
+        "amount#0",
+        "\"dep\""
       ]
     },
-    "407": {
-      "op": "bytec_2 // \"done\"",
+    "406": {
+      "op": "txn Sender",
       "defined_out": [
-        "\"done\"",
-        "result.Amount#0",
-        "tmp%8#0"
+        "\"dep\"",
+        "amount#0",
+        "materialized_values%0#0"
       ],
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
         "result.Amount#0",
-        "tmp%8#0",
-        "\"done\""
+        "values%4#0",
+        "amount#0",
+        "amount#0",
+        "\"dep\"",
+        "materialized_values%0#0"
       ]
     },
     "408": {
-      "op": "intc_0 // 0",
+      "op": "concat",
+      "defined_out": [
+        "amount#0",
+        "box_prefixed_key%0#0"
+      ],
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
         "result.Amount#0",
-        "tmp%8#0",
-        "\"done\"",
-        "0"
+        "values%4#0",
+        "amount#0",
+        "amount#0",
+        "box_prefixed_key%0#0"
       ]
     },
     "409": {
-      "op": "app_local_put",
+      "op": "box_len",
+      "defined_out": [
+        "_%0#0",
+        "amount#0",
+        "maybe_exists%0#0"
+      ],
       "stack_out": [
-        "result.Amount#0"
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "amount#0",
+        "_%0#0",
+        "maybe_exists%0#0"
       ]
     },
     "410": {
-      "block": "withdraw_after_if_else@4",
-      "stack_in": [
-        "result.Amount#0"
-      ],
-      "op": "dup",
-      "defined_out": [
-        "result.Amount#0"
-      ],
+      "op": "bury 1",
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
         "result.Amount#0",
-        "result.Amount#0"
-      ]
-    },
-    "411": {
-      "op": "itob",
-      "defined_out": [
-        "aggregate%val_as_bytes%0#0",
-        "result.Amount#0"
-      ],
-      "stack_out": [
-        "result.Amount#0",
-        "aggregate%val_as_bytes%0#0"
+        "values%4#0",
+        "amount#0",
+        "amount#0",
+        "maybe_exists%0#0"
       ]
     },
     "412": {
-      "op": "bytec 6 // 0x151f7c75",
-      "defined_out": [
-        "0x151f7c75",
-        "aggregate%val_as_bytes%0#0",
-        "result.Amount#0"
-      ],
+      "error": "User not initialized",
+      "op": "assert // User not initialized",
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
         "result.Amount#0",
-        "aggregate%val_as_bytes%0#0",
-        "0x151f7c75"
+        "values%4#0",
+        "amount#0",
+        "amount#0"
+      ]
+    },
+    "413": {
+      "op": "bytec_0 // \"dep\"",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "amount#0",
+        "\"dep\""
       ]
     },
     "414": {
-      "op": "swap",
-      "stack_out": [
-        "result.Amount#0",
-        "0x151f7c75",
-        "aggregate%val_as_bytes%0#0"
-      ]
-    },
-    "415": {
-      "op": "concat",
+      "op": "txn Sender",
       "defined_out": [
-        "result.Amount#0",
-        "tmp%4#0"
+        "\"dep\"",
+        "amount#0",
+        "materialized_values%1#0"
       ],
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
         "result.Amount#0",
-        "tmp%4#0"
+        "values%4#0",
+        "amount#0",
+        "amount#0",
+        "\"dep\"",
+        "materialized_values%1#0"
       ]
     },
     "416": {
-      "op": "log",
+      "op": "concat",
+      "defined_out": [
+        "amount#0",
+        "box_prefixed_key%1#0"
+      ],
       "stack_out": [
-        "result.Amount#0"
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "amount#0",
+        "box_prefixed_key%1#0"
       ]
     },
     "417": {
-      "op": "intc_1 // 1",
+      "op": "box_get",
       "defined_out": [
-        "1",
-        "result.Amount#0"
+        "aggregate%box_get%1#0",
+        "amount#0",
+        "userData#0"
       ],
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
         "result.Amount#0",
-        "1"
+        "values%4#0",
+        "amount#0",
+        "amount#0",
+        "userData#0",
+        "aggregate%box_get%1#0"
       ]
     },
     "418": {
-      "op": "return",
+      "op": "swap",
       "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "amount#0",
+        "aggregate%box_get%1#0",
+        "userData#0"
+      ]
+    },
+    "419": {
+      "op": "dup",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "amount#0",
+        "aggregate%box_get%1#0",
+        "userData#0",
+        "userData#0 (copy)"
+      ]
+    },
+    "420": {
+      "op": "cover 2",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "amount#0",
+        "userData#0",
+        "aggregate%box_get%1#0",
+        "userData#0"
+      ]
+    },
+    "422": {
+      "op": "cover 3",
+      "defined_out": [
+        "aggregate%box_get%1#0",
+        "amount#0",
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "amount#0",
+        "userData#0",
+        "aggregate%box_get%1#0"
+      ]
+    },
+    "424": {
+      "error": "Box must have value",
+      "op": "assert // Box must have value",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "amount#0",
+        "userData#0"
+      ]
+    },
+    "425": {
+      "op": "dup",
+      "defined_out": [
+        "amount#0",
+        "userData#0",
+        "userData#0 (copy)"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "amount#0",
+        "userData#0",
+        "userData#0 (copy)"
+      ]
+    },
+    "426": {
+      "op": "intc_1 // 0",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "amount#0",
+        "userData#0",
+        "userData#0 (copy)",
+        "0"
+      ]
+    },
+    "427": {
+      "op": "extract_uint64",
+      "defined_out": [
+        "amount#0",
+        "userData#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0"
+      ]
+    },
+    "428": {
+      "op": "dup",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%0#0"
+      ]
+    },
+    "429": {
+      "op": "cover 3",
+      "defined_out": [
+        "amount#0",
+        "userData#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0"
+      ]
+    },
+    "431": {
+      "op": "dup",
+      "defined_out": [
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%0#0 (copy)"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%0#0 (copy)"
+      ]
+    },
+    "432": {
+      "error": "No deposits found for this account",
+      "op": "assert // No deposits found for this account",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0"
+      ]
+    },
+    "433": {
+      "op": "dig 2",
+      "defined_out": [
+        "amount#0",
+        "amount#0 (copy)",
+        "userData#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "amount#0 (copy)"
+      ]
+    },
+    "435": {
+      "error": "Amount must be greater than zero",
+      "op": "assert // Amount must be greater than zero",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0"
+      ]
+    },
+    "436": {
+      "op": "uncover 2",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "userData#0",
+        "values%0#0",
+        "amount#0"
+      ]
+    },
+    "438": {
+      "op": ">=",
+      "defined_out": [
+        "amount#0",
+        "tmp%2#1",
+        "userData#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "userData#0",
+        "tmp%2#1"
+      ]
+    },
+    "439": {
+      "error": "Amount greater than the deposited amount",
+      "op": "assert // Amount greater than the deposited amount",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "userData#0"
+      ]
+    },
+    "440": {
+      "op": "intc_2 // 8",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "userData#0",
+        "8"
+      ]
+    },
+    "441": {
+      "op": "extract_uint64",
+      "defined_out": [
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "442": {
+      "op": "dup",
+      "defined_out": [
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "values%2#0"
+      ]
+    },
+    "443": {
+      "op": "bnz withdraw_and_contd@2",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "446": {
+      "op": "dig 3",
+      "defined_out": [
+        "amount#0",
+        "payout#1",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "payout#1"
+      ]
+    },
+    "448": {
+      "block": "withdraw_after_if_else@6",
+      "stack_in": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "payout#1"
+      ],
+      "op": "itxn_begin"
+    },
+    "449": {
+      "op": "txn Sender",
+      "defined_out": [
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "payout#1",
+        "inner_txn_params%0%%param_Receiver_idx_0#0"
+      ]
+    },
+    "451": {
+      "op": "itxn_field Receiver"
+    },
+    "453": {
+      "op": "itxn_field Amount",
+      "defined_out": [],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "455": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "1"
+      ]
+    },
+    "456": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "458": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "0"
+      ]
+    },
+    "459": {
+      "op": "itxn_field Fee",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "461": {
+      "op": "itxn_submit"
+    },
+    "462": {
+      "op": "itxn Amount",
+      "defined_out": [
+        "result.Amount#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
         "result.Amount#0"
       ]
+    },
+    "464": {
+      "op": "bury 6",
+      "defined_out": [
+        "result.Amount#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "466": {
+      "op": "dig 1",
+      "defined_out": [
+        "result.Amount#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "values%0#0"
+      ]
+    },
+    "468": {
+      "op": "dig 4",
+      "defined_out": [
+        "amount#0",
+        "result.Amount#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "values%0#0",
+        "amount#0"
+      ]
+    },
+    "470": {
+      "op": "-",
+      "defined_out": [
+        "amount#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "remaining#0"
+      ]
+    },
+    "471": {
+      "op": "dup",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "remaining#0",
+        "remaining#0"
+      ]
+    },
+    "472": {
+      "op": "bury 8",
+      "defined_out": [
+        "amount#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "remaining#0"
+      ]
+    },
+    "474": {
+      "op": "dig 3",
+      "defined_out": [
+        "amount#0",
+        "remaining#0",
+        "result.Amount#0",
+        "userData#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "remaining#0",
+        "userData#0"
+      ]
+    },
+    "476": {
+      "op": "intc_3 // 16",
+      "defined_out": [
+        "16",
+        "amount#0",
+        "remaining#0",
+        "result.Amount#0",
+        "userData#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "remaining#0",
+        "userData#0",
+        "16"
+      ]
+    },
+    "477": {
+      "op": "extract_uint64",
+      "defined_out": [
+        "amount#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "userData#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "remaining#0",
+        "newGoalReached#0"
+      ]
+    },
+    "478": {
+      "op": "bury 9",
+      "defined_out": [
+        "amount#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "userData#0",
+        "values%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "remaining#0"
+      ]
+    },
+    "480": {
+      "op": "dig 1",
+      "defined_out": [
+        "amount#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "remaining#0",
+        "values%2#0"
+      ]
+    },
+    "482": {
+      "op": "<",
+      "defined_out": [
+        "amount#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "tmp%12#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "tmp%12#0"
+      ]
+    },
+    "483": {
+      "op": "bz withdraw_after_if_else@9",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "486": {
+      "op": "intc_1 // 0",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "newGoalReached#0"
+      ]
+    },
+    "487": {
+      "op": "bury 8",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "489": {
+      "block": "withdraw_after_if_else@9",
+      "stack_in": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ],
+      "op": "dig 2",
+      "defined_out": [
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "userData#0"
+      ]
+    },
+    "491": {
+      "op": "dup",
+      "defined_out": [
+        "userData#0",
+        "userData#0 (copy)"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "userData#0",
+        "userData#0 (copy)"
+      ]
+    },
+    "492": {
+      "op": "extract 24 8",
+      "defined_out": [
+        "aggregate%extract%5#0",
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "userData#0",
+        "aggregate%extract%5#0"
+      ]
+    },
+    "495": {
+      "op": "dig 1",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "userData#0",
+        "aggregate%extract%5#0",
+        "userData#0 (copy)"
+      ]
+    },
+    "497": {
+      "op": "extract 32 8",
+      "defined_out": [
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "userData#0",
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0"
+      ]
+    },
+    "500": {
+      "op": "uncover 2",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "userData#0"
+      ]
+    },
+    "502": {
+      "op": "extract 40 8",
+      "defined_out": [
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0"
+      ]
+    },
+    "505": {
+      "op": "dig 9",
+      "defined_out": [
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "remaining#0",
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "remaining#0"
+      ]
+    },
+    "507": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%val_as_bytes%0#0",
+        "remaining#0",
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%val_as_bytes%0#0"
+      ]
+    },
+    "508": {
+      "op": "dig 4",
+      "defined_out": [
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%val_as_bytes%0#0",
+        "remaining#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%val_as_bytes%0#0",
+        "values%2#0"
+      ]
+    },
+    "510": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%val_as_bytes%0#0",
+        "aggregate%val_as_bytes%1#0",
+        "remaining#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%val_as_bytes%0#0",
+        "aggregate%val_as_bytes%1#0"
+      ]
+    },
+    "511": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%1#0",
+        "remaining#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%1#0"
+      ]
+    },
+    "512": {
+      "op": "dig 11",
+      "defined_out": [
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%1#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%1#0",
+        "newGoalReached#0"
+      ]
+    },
+    "514": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%2#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%1#0",
+        "aggregate%val_as_bytes%2#0"
+      ]
+    },
+    "515": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%2#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%5#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%2#0"
+      ]
+    },
+    "516": {
+      "op": "uncover 3",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%2#0",
+        "aggregate%extract%5#0"
+      ]
+    },
+    "518": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%3#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%6#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%3#0"
+      ]
+    },
+    "519": {
+      "op": "uncover 2",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%3#0",
+        "aggregate%extract%6#0"
+      ]
+    },
+    "521": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%extract%7#0",
+        "aggregate%head%4#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%extract%7#0",
+        "aggregate%head%4#0"
+      ]
+    },
+    "522": {
+      "op": "swap",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%head%4#0",
+        "aggregate%extract%7#0"
+      ]
+    },
+    "523": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%5#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%head%5#0"
+      ]
+    },
+    "524": {
+      "op": "bytec_0 // \"dep\"",
+      "defined_out": [
+        "\"dep\"",
+        "aggregate%head%5#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%head%5#0",
+        "\"dep\""
+      ]
+    },
+    "525": {
+      "op": "txn Sender",
+      "defined_out": [
+        "\"dep\"",
+        "aggregate%head%5#0",
+        "materialized_values%2#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%head%5#0",
+        "\"dep\"",
+        "materialized_values%2#0"
+      ]
+    },
+    "527": {
+      "op": "concat",
+      "defined_out": [
+        "aggregate%head%5#0",
+        "box_prefixed_key%2#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%head%5#0",
+        "box_prefixed_key%2#0"
+      ]
+    },
+    "528": {
+      "op": "swap",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "box_prefixed_key%2#0",
+        "aggregate%head%5#0"
+      ]
+    },
+    "529": {
+      "op": "box_put",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "530": {
+      "op": "dig 5",
+      "defined_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "result.Amount#0"
+      ]
+    },
+    "532": {
+      "op": "itob",
+      "defined_out": [
+        "aggregate%val_as_bytes%6#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%val_as_bytes%6#0"
+      ]
+    },
+    "533": {
+      "op": "bytec_2 // 0x151f7c75",
+      "defined_out": [
+        "0x151f7c75",
+        "aggregate%val_as_bytes%6#0",
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "aggregate%val_as_bytes%6#0",
+        "0x151f7c75"
+      ]
+    },
+    "534": {
+      "op": "swap",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "0x151f7c75",
+        "aggregate%val_as_bytes%6#0"
+      ]
+    },
+    "535": {
+      "op": "concat",
+      "defined_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "tmp%4#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "tmp%4#0"
+      ]
+    },
+    "536": {
+      "op": "log",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "537": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "userData#0",
+        "values%2#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "1"
+      ]
+    },
+    "538": {
+      "op": "return",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "539": {
+      "block": "withdraw_and_contd@2",
+      "stack_in": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ],
+      "op": "dig 2",
+      "defined_out": [
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "userData#0"
+      ]
+    },
+    "541": {
+      "op": "intc_3 // 16",
+      "defined_out": [
+        "16",
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "userData#0",
+        "16"
+      ]
+    },
+    "542": {
+      "op": "extract_uint64",
+      "defined_out": [
+        "userData#0",
+        "values%3#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "values%3#0"
+      ]
+    },
+    "543": {
+      "op": "bz withdraw_and_contd@3",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "546": {
+      "op": "dig 3",
+      "defined_out": [
+        "payout#1",
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "payout#1"
+      ]
+    },
+    "548": {
+      "op": "b withdraw_after_if_else@6"
+    },
+    "551": {
+      "block": "withdraw_and_contd@3",
+      "stack_in": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ],
+      "op": "global LatestTimestamp",
+      "defined_out": [
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "tmp%5#0"
+      ]
+    },
+    "553": {
+      "op": "dig 3",
+      "defined_out": [
+        "tmp%5#0",
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "tmp%5#0",
+        "userData#0"
+      ]
+    },
+    "555": {
+      "op": "pushint 40 // 40",
+      "defined_out": [
+        "40",
+        "tmp%5#0",
+        "userData#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "tmp%5#0",
+        "userData#0",
+        "40"
+      ]
+    },
+    "557": {
+      "op": "extract_uint64",
+      "defined_out": [
+        "tmp%5#0",
+        "userData#0",
+        "values%4#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "tmp%5#0",
+        "values%4#0"
+      ]
+    },
+    "558": {
+      "op": "dup",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "tmp%5#0",
+        "values%4#0",
+        "values%4#0"
+      ]
+    },
+    "559": {
+      "op": "bury 7",
+      "defined_out": [
+        "tmp%5#0",
+        "userData#0",
+        "values%4#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "tmp%5#0",
+        "values%4#0"
+      ]
+    },
+    "561": {
+      "op": ">",
+      "defined_out": [
+        "tmp%6#0",
+        "userData#0",
+        "values%4#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "tmp%6#0"
+      ]
+    },
+    "562": {
+      "op": "bnz withdraw_and_contd@4",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "565": {
+      "op": "dig 3",
+      "defined_out": [
+        "payout#1",
+        "userData#0",
+        "values%4#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "payout#1"
+      ]
+    },
+    "567": {
+      "op": "b withdraw_after_if_else@6"
+    },
+    "570": {
+      "block": "withdraw_and_contd@4",
+      "stack_in": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ],
+      "op": "dig 4",
+      "defined_out": [
+        "values%4#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "values%4#0"
+      ]
+    },
+    "572": {
+      "op": "bnz withdraw_if_body@5",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ]
+    },
+    "575": {
+      "op": "dig 3",
+      "defined_out": [
+        "payout#1",
+        "values%4#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "payout#1"
+      ]
+    },
+    "577": {
+      "op": "b withdraw_after_if_else@6"
+    },
+    "580": {
+      "block": "withdraw_if_body@5",
+      "stack_in": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0"
+      ],
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "0"
+      ]
+    },
+    "581": {
+      "op": "bytec_1 // \"penalty\"",
+      "defined_out": [
+        "\"penalty\"",
+        "0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "0",
+        "\"penalty\""
+      ]
+    },
+    "582": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%1#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "maybe_value%0#0",
+        "maybe_exists%1#0"
+      ]
+    },
+    "583": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "584": {
+      "op": "dig 4",
+      "defined_out": [
+        "amount#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "maybe_value%0#0",
+        "amount#0"
+      ]
+    },
+    "586": {
+      "op": "dup"
+    },
+    "587": {
+      "op": "uncover 2",
+      "defined_out": [
+        "amount#0",
+        "amount#0 (copy)",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "amount#0",
+        "amount#0 (copy)",
+        "maybe_value%0#0"
+      ]
+    },
+    "589": {
+      "op": "*",
+      "defined_out": [
+        "amount#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "amount#0",
+        "tmp%8#0"
+      ]
+    },
+    "590": {
+      "op": "pushint 100 // 100",
+      "defined_out": [
+        "100",
+        "amount#0",
+        "tmp%8#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "amount#0",
+        "tmp%8#0",
+        "100"
+      ]
+    },
+    "592": {
+      "op": "/",
+      "defined_out": [
+        "amount#0",
+        "penalty#0"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "amount#0",
+        "penalty#0"
+      ]
+    },
+    "593": {
+      "op": "-",
+      "defined_out": [
+        "amount#0",
+        "payout#1"
+      ],
+      "stack_out": [
+        "newGoalReached#0",
+        "remaining#0",
+        "result.Amount#0",
+        "values%4#0",
+        "amount#0",
+        "userData#0",
+        "values%0#0",
+        "values%2#0",
+        "payout#1"
+      ]
+    },
+    "594": {
+      "op": "b withdraw_after_if_else@6"
     }
   }
 }
