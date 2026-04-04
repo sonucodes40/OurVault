@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useWalletConnection } from './utils/walletConnect'
 
 import LandingPage from './pages/LandingPage'
+import Dashboard from './pages/Dashboard'
 
 
 function Home() {
