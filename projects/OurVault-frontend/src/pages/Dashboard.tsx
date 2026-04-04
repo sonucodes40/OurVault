@@ -4,7 +4,7 @@ import TransactionHistoryUI from '../components/TranscationCard'
 import DepositWithdraw from '../components/DepositWithdrawCard'
 import { Card } from '../components/card'
 import { Landmark, Sprout, Trophy, Vault, Wallet } from 'lucide-react'
-import {userBalance } from '../utils/algorand'
+import {initUser, userBalance } from '../utils/algorand'
 import algosdk from 'algosdk'
 import MilestoneCard from '../components/MilestoneProgress'
 import GraphCard from '../components/Graph'
@@ -36,6 +36,15 @@ function Dashboard({ address, setAddress }: any) {
   const [goal, setGoal] = useState(5)
   const [isModalOpen, setIsModalOpen] = useState(false)
 
+  const initialize = async () => {
+    if (!activeAddress) return
+    try {
+        await initUser(activeAddress, transactionSigner);
+        alert("initialize done")
+    } catch (error) {
+        console.log(error)
+    }
+  }
   const fetchBalances = async () => {
   if (!activeAddress) return
 
@@ -100,7 +109,7 @@ function Dashboard({ address, setAddress }: any) {
         <div className="hidden md:flex items-center gap-2 text-sm text-slate-400">
           <p className="text-white text-sm">{shortAddress}</p>
           <button
-            /*onClick={}*/
+            onClick={initialize}
             className="bg-cyan-600 text-white px-4 py-2 rounded-xl"
           >
             Inatalize
