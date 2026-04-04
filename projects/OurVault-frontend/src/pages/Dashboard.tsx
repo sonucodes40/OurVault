@@ -100,6 +100,12 @@ function Dashboard({ address, setAddress }: any) {
         <div className="hidden md:flex items-center gap-2 text-sm text-slate-400">
           <p className="text-white text-sm">{shortAddress}</p>
           <button
+            /*onClick={}*/
+            className="bg-cyan-600 text-white px-4 py-2 rounded-xl"
+          >
+            Inatalize
+          </button>
+          <button
             onClick={handleDisconnect}
             className="bg-cyan-600 text-white px-4 py-2 rounded-xl"
           >
@@ -175,6 +181,14 @@ function Dashboard({ address, setAddress }: any) {
             </div>
 
             {/* Input */}
+            <label className="text-white">Amount:</label>
+            <input
+              type="number"
+              defaultValue={goal}
+              id="goalInput"
+              className="w-full p-2 rounded bg-slate-900 border border-slate-700 text-white mb-4"
+            />
+            <label className="text-white">Deadline in Days:</label>
             <input
               type="number"
               defaultValue={goal}
