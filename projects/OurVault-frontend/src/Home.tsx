@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useWalletConnection } from './utils/walletConnect'
-import Dashboard from './pages/Dashboard'
+
 import LandingPage from './pages/LandingPage'
 
 
