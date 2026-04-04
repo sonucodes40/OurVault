@@ -1,12 +1,12 @@
-import React from 'react'
-import Home from './Home'
+import { WalletProvider } from "@txnlab/use-wallet-react";
+import { walletManager } from "./utils/walletConnect";
+import Home from "./Home";
 
-function App() {
+
+export default function App() {
   return (
-    <div>
-      <Home/>
-    </div>
+      <WalletProvider manager={walletManager}>
+        <Home />
+      </WalletProvider>
   )
 }
-
-export default App

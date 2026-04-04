@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { useWalletConnection } from './utils/walletConnect'
+import Dashboard from './pages/Dashboard'
+import LandingPage from './pages/LandingPage'
+
 
 function Home() {
+  const [address, setAddress] = useState<string | null>(null)
   return (
-    <div className='text-red-500 font-bold'>
-      hello
+    <div>
+      {address ? (
+        <Dashboard address ={address} setAddress={setAddress} />
+      ) : (
+        <LandingPage setAddress = {setAddress} />
+      )}
     </div>
   )
 }
