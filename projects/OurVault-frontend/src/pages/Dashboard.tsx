@@ -4,16 +4,26 @@ import TransactionHistoryUI from '../components/TranscationCard'
 import DepositWithdraw from '../components/DepositWithdrawCard'
 import { Card } from '../components/card'
 import { Landmark, Sprout, Trophy, Vault, Wallet } from 'lucide-react'
-import { userBalance } from '../utils/algorand'
+import {userBalance } from '../utils/algorand'
 import algosdk from 'algosdk'
 import MilestoneCard from '../components/MilestoneProgress'
 import GraphCard from '../components/Graph'
 import { GoalCard } from '../components/goalcard'
 import ProgressBar from '../components/ProgressBar'
+import { AppState } from '@algorandfoundation/algokit-utils/types/app'
 
+type UserData = {
+    deposited: number;
+    goal: number;
+    goalReached: number;
+    totalSaving: number;
+    totalGoalsReached: number;
+    deadline: number;
+}
 function Dashboard({ address, setAddress }: any) {
-  const { disconnect, activeAddress } = useWalletConnection()
+  const { disconnect, activeAddress, transactionSigner } = useWalletConnection()
   const [balance, setBalance] = useState<bigint | null>(null)
+  const[userData, setUserData] = useState<UserData | null>(null)
   const [peraBalance, setPeraBalance] = useState<bigint | null>(null)
 
   const shortAddress = address.slice(0, 6) + '...' + address.slice(-4)
@@ -27,18 +37,21 @@ function Dashboard({ address, setAddress }: any) {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   const fetchBalances = async () => {
-    if (!activeAddress) {
-      alert('connect wallet first')
-      return
-    }
-    try {
-      const balances = await userBalance(activeAddress)
-      console.log('User balance:', balances)
-      setBalance(balances ?? 0n)
-    } catch (error) {
-      console.error('Error fetching balance: ', error)
-    }
+  if (!activeAddress) return
+
+  try {
+    const data = await userBalance(activeAddress)
+
+    console.log('User data:', data)
+
+    setUserData(data)
+    setBalance(data ? BigInt(data.deposited * 1_000_000) : 0n)
+
+  } catch (error) {
+    console.error('Error fetching balance: ', error)
+    setUserData(null)
   }
+}
 
   useEffect(() => {
     fetchBalances()
@@ -81,6 +94,7 @@ function Dashboard({ address, setAddress }: any) {
 
         <div className="hidden md:flex items-center gap-8 text-sm text-slate-400">
           <h2 className="text-xl text-white font-bold">Dashboard</h2>
+        
         </div>
 
         <div className="hidden md:flex items-center gap-2 text-sm text-slate-400">

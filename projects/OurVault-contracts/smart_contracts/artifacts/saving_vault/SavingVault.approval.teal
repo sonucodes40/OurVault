@@ -1,0 +1,669 @@
+#pragma version 11
+#pragma typetrack false
+
+// @algorandfoundation/algorand-typescript/arc4/index.d.ts::Contract.approvalProgram() -> uint64:
+main:
+    intcblock 1 0 8 16
+    bytecblock "dep" "penalty" 0x151f7c75
+    txn ApplicationID
+    bnz main_after_if_else@2
+    // smart_contracts/saving_vault/contract.algo.ts:29
+    // penaltyPercent = GlobalState<uint64>({ initialValue: Uint64(10), key: 'penalty' })
+    bytec_1 // "penalty"
+    pushint 10 // 10
+    app_global_put
+
+main_after_if_else@2:
+    // smart_contracts/saving_vault/contract.algo.ts:27
+    // export class SavingVault extends Contract {
+    txn NumAppArgs
+    bz main___algots__.defaultCreate@13
+    txn OnCompletion
+    !
+    assert // OnCompletion must be NoOp
+    txn ApplicationID
+    assert
+    pushbytess 0x21db5a48 0xfa4303ba 0x3298e7c0 0x31214176 // method "initUser()void", method "setGoal(uint64,uint64)void", method "deposit(pay)uint64", method "withdraw(uint64)uint64"
+    txna ApplicationArgs 0
+    match initUser setGoal deposit withdraw
+    err
+
+main___algots__.defaultCreate@13:
+    // smart_contracts/saving_vault/contract.algo.ts:27
+    // export class SavingVault extends Contract {
+    txn OnCompletion
+    !
+    txn ApplicationID
+    !
+    &&
+    assert // OnCompletion must be NoOp && can only call when creating
+    intc_0 // 1
+    return
+
+
+// smart_contracts/saving_vault/contract.algo.ts::SavingVault.initUser[routing]() -> void:
+initUser:
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    bytec_0 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:33
+    // assert(!this.depositors(Txn.sender).exists, 'User already initialized')
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:33
+    // assert(!this.depositors(Txn.sender).exists, 'User already initialized')
+    box_len
+    bury 1
+    !
+    assert // User already initialized
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    bytec_0 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:42
+    // this.depositors(Txn.sender).value = clone(initial)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:34-41
+    // const initial: UserData = {
+    //   deposited: Uint64(0),
+    //   goal: Uint64(0),
+    //   goalReached: Uint64(0),
+    //   totalSaving: Uint64(0),
+    //   totalGoalsReached: Uint64(0),
+    //   deadline: Uint64(0),
+    // }
+    pushbytes 0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    // smart_contracts/saving_vault/contract.algo.ts:42
+    // this.depositors(Txn.sender).value = clone(initial)
+    box_put
+    // smart_contracts/saving_vault/contract.algo.ts:31
+    // @abimethod()
+    intc_0 // 1
+    return
+
+
+// smart_contracts/saving_vault/contract.algo.ts::SavingVault.setGoal[routing]() -> void:
+setGoal:
+    // smart_contracts/saving_vault/contract.algo.ts:45
+    // @abimethod()
+    txna ApplicationArgs 1
+    dup
+    len
+    intc_2 // 8
+    ==
+    assert // invalid number of bytes for arc4.uint64
+    btoi
+    txna ApplicationArgs 2
+    dup
+    len
+    intc_2 // 8
+    ==
+    assert // invalid number of bytes for arc4.uint64
+    btoi
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    bytec_0 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:47
+    // assert(this.depositors(Txn.sender).exists, 'User not initialized')
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:47
+    // assert(this.depositors(Txn.sender).exists, 'User not initialized')
+    box_len
+    bury 1
+    assert // User not initialized
+    // smart_contracts/saving_vault/contract.algo.ts:48
+    // assert(goalAmount > Uint64(0), 'Goal must be greater than zero')
+    dig 1
+    assert // Goal must be greater than zero
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    bytec_0 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:50
+    // const userData = clone(this.depositors(Txn.sender).value)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:50
+    // const userData = clone(this.depositors(Txn.sender).value)
+    box_get
+    assert // Box must have value
+    // smart_contracts/saving_vault/contract.algo.ts:51
+    // assert(userData.goal === Uint64(0), 'Goal already set')
+    dup
+    intc_2 // 8
+    extract_uint64
+    !
+    assert // Goal already set
+    // smart_contracts/saving_vault/contract.algo.ts:53
+    // const deadline: uint64 = Global.latestTimestamp + deadlineDuration
+    global LatestTimestamp
+    uncover 2
+    +
+    // smart_contracts/saving_vault/contract.algo.ts:55
+    // deposited: userData.deposited,
+    dig 1
+    extract 0 8
+    // smart_contracts/saving_vault/contract.algo.ts:58
+    // totalSaving: userData.totalSaving,
+    dig 2
+    extract 24 8
+    // smart_contracts/saving_vault/contract.algo.ts:59
+    // totalGoalsReached: userData.totalGoalsReached,
+    uncover 3
+    extract 32 8
+    // smart_contracts/saving_vault/contract.algo.ts:54-61
+    // this.depositors(Txn.sender).value = {
+    //   deposited: userData.deposited,
+    //   goal: goalAmount,
+    //   goalReached: Uint64(0),
+    //   totalSaving: userData.totalSaving,
+    //   totalGoalsReached: userData.totalGoalsReached,
+    //   deadline: deadline,
+    // }
+    uncover 4
+    itob
+    uncover 3
+    swap
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:57
+    // goalReached: Uint64(0),
+    intc_1 // 0
+    // smart_contracts/saving_vault/contract.algo.ts:54-61
+    // this.depositors(Txn.sender).value = {
+    //   deposited: userData.deposited,
+    //   goal: goalAmount,
+    //   goalReached: Uint64(0),
+    //   totalSaving: userData.totalSaving,
+    //   totalGoalsReached: userData.totalGoalsReached,
+    //   deadline: deadline,
+    // }
+    itob
+    concat
+    uncover 2
+    concat
+    swap
+    concat
+    swap
+    itob
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    bytec_0 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:54
+    // this.depositors(Txn.sender).value = {
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:54-61
+    // this.depositors(Txn.sender).value = {
+    //   deposited: userData.deposited,
+    //   goal: goalAmount,
+    //   goalReached: Uint64(0),
+    //   totalSaving: userData.totalSaving,
+    //   totalGoalsReached: userData.totalGoalsReached,
+    //   deadline: deadline,
+    // }
+    swap
+    box_put
+    // smart_contracts/saving_vault/contract.algo.ts:45
+    // @abimethod()
+    intc_0 // 1
+    return
+
+
+// smart_contracts/saving_vault/contract.algo.ts::SavingVault.deposit[routing]() -> void:
+deposit:
+    // smart_contracts/saving_vault/contract.algo.ts:64
+    // @abimethod()
+    txn GroupIndex
+    intc_0 // 1
+    -
+    dup
+    gtxns TypeEnum
+    intc_0 // pay
+    ==
+    assert // transaction type is pay
+    // smart_contracts/saving_vault/contract.algo.ts:66
+    // assert(payTxn.receiver === Global.currentApplicationAddress, 'Receiver must be the contract address')
+    dup
+    gtxns Receiver
+    global CurrentApplicationAddress
+    ==
+    assert // Receiver must be the contract address
+    // smart_contracts/saving_vault/contract.algo.ts:67
+    // assert(payTxn.amount > Uint64(0), 'Deposit amount must be greater than zero')
+    gtxns Amount
+    dup
+    assert // Deposit amount must be greater than zero
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    bytec_0 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:68
+    // assert(this.depositors(Txn.sender).exists, 'User not initialized')
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:68
+    // assert(this.depositors(Txn.sender).exists, 'User not initialized')
+    box_len
+    bury 1
+    assert // User not initialized
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    bytec_0 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:71
+    // const userData = clone(this.depositors(Txn.sender).value)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:71
+    // const userData = clone(this.depositors(Txn.sender).value)
+    box_get
+    assert // Box must have value
+    // smart_contracts/saving_vault/contract.algo.ts:72
+    // assert(userData.goal > Uint64(0), 'Set a saving goal before depositing')
+    dup
+    intc_2 // 8
+    extract_uint64
+    dup
+    cover 3
+    dup
+    assert // Set a saving goal before depositing
+    // smart_contracts/saving_vault/contract.algo.ts:74
+    // const newTotal: uint64 = userData.deposited + depositAmount
+    dig 1
+    intc_1 // 0
+    extract_uint64
+    dig 3
+    +
+    dup
+    cover 3
+    cover 4
+    // smart_contracts/saving_vault/contract.algo.ts:75
+    // const newTotalSaving: uint64 = userData.totalSaving + depositAmount
+    dig 1
+    pushint 24 // 24
+    extract_uint64
+    uncover 4
+    +
+    cover 3
+    // smart_contracts/saving_vault/contract.algo.ts:77
+    // let newGoalReached: uint64 = userData.goalReached
+    dig 1
+    intc_3 // 16
+    extract_uint64
+    cover 3
+    // smart_contracts/saving_vault/contract.algo.ts:78
+    // let newTotalGoalsReached: uint64 = userData.totalGoalsReached
+    dig 1
+    pushint 32 // 32
+    extract_uint64
+    cover 3
+    // smart_contracts/saving_vault/contract.algo.ts:80
+    // let newDeadline: uint64 = userData.deadline
+    swap
+    pushint 40 // 40
+    extract_uint64
+    cover 2
+    // smart_contracts/saving_vault/contract.algo.ts:82
+    // if (newTotal >= userData.goal && userData.goalReached === Uint64(0)) {
+    >=
+    bz deposit_after_if_else@4
+    dig 2
+    bnz deposit_after_if_else@4
+    // smart_contracts/saving_vault/contract.algo.ts:83
+    // newGoalReached = Uint64(1)
+    intc_0 // 1
+    bury 3
+    // smart_contracts/saving_vault/contract.algo.ts:84
+    // newTotalGoalsReached = userData.totalGoalsReached + Uint64(1)
+    dig 1
+    intc_0 // 1
+    +
+    bury 2
+    // smart_contracts/saving_vault/contract.algo.ts:85
+    // newGoal = Uint64(0)
+    intc_1 // 0
+    bury 6
+    // smart_contracts/saving_vault/contract.algo.ts:86
+    // newDeadline = Uint64(0)
+    intc_1 // 0
+    bury 1
+
+deposit_after_if_else@4:
+    // smart_contracts/saving_vault/contract.algo.ts:89-96
+    // this.depositors(Txn.sender).value = {
+    //   deposited: newTotal,
+    //   goal: newGoal,
+    //   goalReached: newGoalReached,
+    //   totalSaving: newTotalSaving,
+    //   totalGoalsReached: newTotalGoalsReached,
+    //   deadline: newDeadline,
+    // }
+    dig 4
+    itob
+    dig 6
+    itob
+    concat
+    dig 3
+    itob
+    concat
+    dig 4
+    itob
+    concat
+    dig 2
+    itob
+    swap
+    dig 1
+    concat
+    dig 2
+    itob
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    bytec_0 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:89
+    // this.depositors(Txn.sender).value = {
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:89-96
+    // this.depositors(Txn.sender).value = {
+    //   deposited: newTotal,
+    //   goal: newGoal,
+    //   goalReached: newGoalReached,
+    //   totalSaving: newTotalSaving,
+    //   totalGoalsReached: newTotalGoalsReached,
+    //   deadline: newDeadline,
+    // }
+    swap
+    box_put
+    // smart_contracts/saving_vault/contract.algo.ts:64
+    // @abimethod()
+    bytec_2 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_0 // 1
+    return
+
+
+// smart_contracts/saving_vault/contract.algo.ts::SavingVault.withdraw[routing]() -> void:
+withdraw:
+    pushbytes ""
+    dupn 3
+    // smart_contracts/saving_vault/contract.algo.ts:101
+    // @abimethod()
+    txna ApplicationArgs 1
+    dup
+    len
+    intc_2 // 8
+    ==
+    assert // invalid number of bytes for arc4.uint64
+    btoi
+    dup
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    bytec_0 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:103
+    // assert(this.depositors(Txn.sender).exists, 'User not initialized')
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:103
+    // assert(this.depositors(Txn.sender).exists, 'User not initialized')
+    box_len
+    bury 1
+    assert // User not initialized
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    bytec_0 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:104
+    // const userData = clone(this.depositors(Txn.sender).value)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:104
+    // const userData = clone(this.depositors(Txn.sender).value)
+    box_get
+    swap
+    dup
+    cover 2
+    cover 3
+    assert // Box must have value
+    // smart_contracts/saving_vault/contract.algo.ts:105
+    // assert(userData.deposited > Uint64(0), 'No deposits found for this account')
+    dup
+    intc_1 // 0
+    extract_uint64
+    dup
+    cover 3
+    dup
+    assert // No deposits found for this account
+    // smart_contracts/saving_vault/contract.algo.ts:106
+    // assert(amount > Uint64(0), 'Amount must be greater than zero')
+    dig 2
+    assert // Amount must be greater than zero
+    // smart_contracts/saving_vault/contract.algo.ts:107
+    // assert(amount <= userData.deposited, 'Amount greater than the deposited amount')
+    uncover 2
+    >=
+    assert // Amount greater than the deposited amount
+    // smart_contracts/saving_vault/contract.algo.ts:111
+    // userData.goal > Uint64(0) &&
+    intc_2 // 8
+    extract_uint64
+    dup
+    // smart_contracts/saving_vault/contract.algo.ts:111-112
+    // userData.goal > Uint64(0) &&
+    // userData.goalReached === Uint64(0) &&
+    bnz withdraw_and_contd@2
+    dig 3
+
+withdraw_after_if_else@6:
+    // smart_contracts/saving_vault/contract.algo.ts:120-126
+    // const result = itxn
+    //   .payment({
+    //     receiver: Txn.sender,
+    //     amount: payout,
+    //     fee: Uint64(0),
+    //   })
+    //   .submit()
+    itxn_begin
+    // smart_contracts/saving_vault/contract.algo.ts:122
+    // receiver: Txn.sender,
+    txn Sender
+    itxn_field Receiver
+    itxn_field Amount
+    // smart_contracts/saving_vault/contract.algo.ts:120-125
+    // const result = itxn
+    //   .payment({
+    //     receiver: Txn.sender,
+    //     amount: payout,
+    //     fee: Uint64(0),
+    //   })
+    intc_0 // 1
+    itxn_field TypeEnum
+    // smart_contracts/saving_vault/contract.algo.ts:124
+    // fee: Uint64(0),
+    intc_1 // 0
+    itxn_field Fee
+    // smart_contracts/saving_vault/contract.algo.ts:120-126
+    // const result = itxn
+    //   .payment({
+    //     receiver: Txn.sender,
+    //     amount: payout,
+    //     fee: Uint64(0),
+    //   })
+    //   .submit()
+    itxn_submit
+    itxn Amount
+    bury 6
+    // smart_contracts/saving_vault/contract.algo.ts:128
+    // const remaining: uint64 = userData.deposited - amount
+    dig 1
+    dig 4
+    -
+    dup
+    bury 8
+    // smart_contracts/saving_vault/contract.algo.ts:130
+    // let newGoalReached: uint64 = userData.goalReached
+    dig 3
+    intc_3 // 16
+    extract_uint64
+    bury 9
+    // smart_contracts/saving_vault/contract.algo.ts:131
+    // if (remaining < userData.goal) {
+    dig 1
+    <
+    bz withdraw_after_if_else@9
+    // smart_contracts/saving_vault/contract.algo.ts:132
+    // newGoalReached = Uint64(0)
+    intc_1 // 0
+    bury 8
+
+withdraw_after_if_else@9:
+    // smart_contracts/saving_vault/contract.algo.ts:139
+    // totalSaving: userData.totalSaving,
+    dig 2
+    dup
+    extract 24 8
+    // smart_contracts/saving_vault/contract.algo.ts:140
+    // totalGoalsReached: userData.totalGoalsReached,
+    dig 1
+    extract 32 8
+    // smart_contracts/saving_vault/contract.algo.ts:141
+    // deadline: userData.deadline,
+    uncover 2
+    extract 40 8
+    // smart_contracts/saving_vault/contract.algo.ts:135-142
+    // this.depositors(Txn.sender).value = {
+    //   deposited: remaining,
+    //   goal: userData.goal,
+    //   goalReached: newGoalReached,
+    //   totalSaving: userData.totalSaving,
+    //   totalGoalsReached: userData.totalGoalsReached,
+    //   deadline: userData.deadline,
+    // }
+    dig 9
+    itob
+    dig 4
+    itob
+    concat
+    dig 11
+    itob
+    concat
+    uncover 3
+    concat
+    uncover 2
+    concat
+    swap
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    bytec_0 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:135
+    // this.depositors(Txn.sender).value = {
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // depositors = BoxMap<Account, UserData>({ keyPrefix: 'dep' })
+    concat
+    // smart_contracts/saving_vault/contract.algo.ts:135-142
+    // this.depositors(Txn.sender).value = {
+    //   deposited: remaining,
+    //   goal: userData.goal,
+    //   goalReached: newGoalReached,
+    //   totalSaving: userData.totalSaving,
+    //   totalGoalsReached: userData.totalGoalsReached,
+    //   deadline: userData.deadline,
+    // }
+    swap
+    box_put
+    // smart_contracts/saving_vault/contract.algo.ts:101
+    // @abimethod()
+    dig 5
+    itob
+    bytec_2 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_0 // 1
+    return
+
+withdraw_and_contd@2:
+    // smart_contracts/saving_vault/contract.algo.ts:112
+    // userData.goalReached === Uint64(0) &&
+    dig 2
+    intc_3 // 16
+    extract_uint64
+    // smart_contracts/saving_vault/contract.algo.ts:111-112
+    // userData.goal > Uint64(0) &&
+    // userData.goalReached === Uint64(0) &&
+    bz withdraw_and_contd@3
+    dig 3
+    b withdraw_after_if_else@6
+
+withdraw_and_contd@3:
+    // smart_contracts/saving_vault/contract.algo.ts:113
+    // Global.latestTimestamp > userData.deadline &&
+    global LatestTimestamp
+    dig 3
+    pushint 40 // 40
+    extract_uint64
+    dup
+    bury 7
+    >
+    // smart_contracts/saving_vault/contract.algo.ts:111-113
+    // userData.goal > Uint64(0) &&
+    // userData.goalReached === Uint64(0) &&
+    // Global.latestTimestamp > userData.deadline &&
+    bnz withdraw_and_contd@4
+    dig 3
+    b withdraw_after_if_else@6
+
+withdraw_and_contd@4:
+    // smart_contracts/saving_vault/contract.algo.ts:111-114
+    // userData.goal > Uint64(0) &&
+    // userData.goalReached === Uint64(0) &&
+    // Global.latestTimestamp > userData.deadline &&
+    // userData.deadline > Uint64(0)
+    dig 4
+    bnz withdraw_if_body@5
+    dig 3
+    b withdraw_after_if_else@6
+
+withdraw_if_body@5:
+    // smart_contracts/saving_vault/contract.algo.ts:116
+    // const penalty: uint64 = (amount * this.penaltyPercent.value) / Uint64(100)
+    intc_1 // 0
+    // smart_contracts/saving_vault/contract.algo.ts:29
+    // penaltyPercent = GlobalState<uint64>({ initialValue: Uint64(10), key: 'penalty' })
+    bytec_1 // "penalty"
+    // smart_contracts/saving_vault/contract.algo.ts:116
+    // const penalty: uint64 = (amount * this.penaltyPercent.value) / Uint64(100)
+    app_global_get_ex
+    assert // check GlobalState exists
+    dig 4
+    dup
+    uncover 2
+    *
+    pushint 100 // 100
+    /
+    // smart_contracts/saving_vault/contract.algo.ts:117
+    // payout = amount - penalty
+    -
+    b withdraw_after_if_else@6
