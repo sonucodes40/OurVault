@@ -18,8 +18,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "lib": [
-      "ESNext"
+      "ESNext", "DOM"
     ],
+    "types": ["node"]
   },
   "include": ["smart_contracts/**/*.ts"],
   "exclude": ["node_modules", "dist", "coverage"]

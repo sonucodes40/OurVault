@@ -1,0 +1,497 @@
+#pragma version 11
+#pragma typetrack false
+
+// @algorandfoundation/algorand-typescript/arc4/index.d.ts::Contract.approvalProgram() -> uint64:
+main:
+    intcblock 0 1 8
+    bytecblock "goal" "dep" "done" "goalreached" "totalS" "dl" 0x151f7c75
+    txn ApplicationID
+    bnz main_after_if_else@2
+    // smart_contracts/saving_vault/contract.algo.ts:20
+    // penaltyPercent = GlobalState<uint64>({ initialValue:Uint64(10), key: "penalty"})
+    pushbytes "penalty"
+    pushint 10 // 10
+    app_global_put
+
+main_after_if_else@2:
+    // smart_contracts/saving_vault/contract.algo.ts:14
+    // export class SavingVault extends Contract {
+    txn NumAppArgs
+    bz main___algots__.defaultCreate@14
+    pushbytes 0x29314d95 // method "optIn()void"
+    txna ApplicationArgs 0
+    match main_optIn_route@5
+
+main_switch_case_next@6:
+    // smart_contracts/saving_vault/contract.algo.ts:14
+    // export class SavingVault extends Contract {
+    txn OnCompletion
+    !
+    assert // OnCompletion must be NoOp
+    txn ApplicationID
+    assert
+    pushbytess 0xfa4303ba 0x3298e7c0 0x31214176 // method "setGoal(uint64,uint64)void", method "deposit(pay)uint64", method "withdraw(uint64)uint64"
+    txna ApplicationArgs 0
+    match setGoal deposit withdraw
+    err
+
+main_optIn_route@5:
+    // smart_contracts/saving_vault/contract.algo.ts:25
+    // @abimethod({allowActions: 'OptIn'})
+    txn OnCompletion
+    intc_1 // OptIn
+    ==
+    txn ApplicationID
+    &&
+    assert // OnCompletion must be OptIn && can only call when not creating
+    b optIn
+
+main___algots__.defaultCreate@14:
+    // smart_contracts/saving_vault/contract.algo.ts:14
+    // export class SavingVault extends Contract {
+    txn OnCompletion
+    !
+    txn ApplicationID
+    !
+    &&
+    assert // OnCompletion must be NoOp && can only call when creating
+    intc_1 // 1
+    return
+
+
+// smart_contracts/saving_vault/contract.algo.ts::SavingVault.optIn[routing]() -> void:
+optIn:
+    // smart_contracts/saving_vault/contract.algo.ts:27
+    // this.deposited(Txn.sender).value = Uint64(0)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:15
+    // deposited =    LocalState<uint64>({ key: "dep"}) // total saved
+    bytec_1 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:27
+    // this.deposited(Txn.sender).value = Uint64(0)
+    intc_0 // 0
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // this.goal(Txn.sender).value = Uint64(0)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:16
+    // goal =         LocalState<uint64>({ key: "goal"})
+    bytec_0 // "goal"
+    // smart_contracts/saving_vault/contract.algo.ts:28
+    // this.goal(Txn.sender).value = Uint64(0)
+    intc_0 // 0
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:29
+    // this.goalReached(Txn.sender).value = Uint64(0)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:17
+    // goalReached =  LocalState<uint64>({ key: "done"}) // 1 if goal reached, 0 otherwise
+    bytec_2 // "done"
+    // smart_contracts/saving_vault/contract.algo.ts:29
+    // this.goalReached(Txn.sender).value = Uint64(0)
+    intc_0 // 0
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:30
+    // this.totalSaving(Txn.sender).value = Uint64(0)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:19
+    // totalSaving =  LocalState<uint64>({ key: "totalS"})
+    bytec 4 // "totalS"
+    // smart_contracts/saving_vault/contract.algo.ts:30
+    // this.totalSaving(Txn.sender).value = Uint64(0)
+    intc_0 // 0
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:31
+    // this.totalGoalsReached(Txn.sender).value   = Uint64(0)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:21
+    // totalGoalsReached = LocalState<uint64>({key: "goalreached"})
+    bytec_3 // "goalreached"
+    // smart_contracts/saving_vault/contract.algo.ts:31
+    // this.totalGoalsReached(Txn.sender).value   = Uint64(0)
+    intc_0 // 0
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:25
+    // @abimethod({allowActions: 'OptIn'})
+    intc_1 // 1
+    return
+
+
+// smart_contracts/saving_vault/contract.algo.ts::SavingVault.setGoal[routing]() -> void:
+setGoal:
+    // smart_contracts/saving_vault/contract.algo.ts:33
+    // @abimethod()
+    txna ApplicationArgs 1
+    dup
+    len
+    intc_2 // 8
+    ==
+    assert // invalid number of bytes for arc4.uint64
+    btoi
+    txna ApplicationArgs 2
+    dup
+    len
+    intc_2 // 8
+    ==
+    assert // invalid number of bytes for arc4.uint64
+    btoi
+    // smart_contracts/saving_vault/contract.algo.ts:35
+    // assert(goalAmount > Uint64(0), "Goal must be greater than zero")
+    dig 1
+    assert // Goal must be greater than zero
+    // smart_contracts/saving_vault/contract.algo.ts:36
+    // assert(this.goal(Txn.sender).value === Uint64(0), "Goal already set")
+    txn Sender
+    intc_0 // 0
+    // smart_contracts/saving_vault/contract.algo.ts:16
+    // goal =         LocalState<uint64>({ key: "goal"})
+    bytec_0 // "goal"
+    // smart_contracts/saving_vault/contract.algo.ts:36
+    // assert(this.goal(Txn.sender).value === Uint64(0), "Goal already set")
+    app_local_get_ex
+    assert // check LocalState exists
+    !
+    assert // Goal already set
+    // smart_contracts/saving_vault/contract.algo.ts:37
+    // this.goalReached(Txn.sender).value = Uint64(0)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:17
+    // goalReached =  LocalState<uint64>({ key: "done"}) // 1 if goal reached, 0 otherwise
+    bytec_2 // "done"
+    // smart_contracts/saving_vault/contract.algo.ts:37
+    // this.goalReached(Txn.sender).value = Uint64(0)
+    intc_0 // 0
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:38
+    // this.goal(Txn.sender).value = goalAmount
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:16
+    // goal =         LocalState<uint64>({ key: "goal"})
+    bytec_0 // "goal"
+    // smart_contracts/saving_vault/contract.algo.ts:38
+    // this.goal(Txn.sender).value = goalAmount
+    uncover 3
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:39
+    // const deadline: uint64 = Global.latestTimestamp + deadlin
+    global LatestTimestamp
+    +
+    // smart_contracts/saving_vault/contract.algo.ts:40
+    // this.deadline(Txn.sender).value = deadline
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:22
+    // deadline = LocalState<uint64>({key: "dl"})
+    bytec 5 // "dl"
+    // smart_contracts/saving_vault/contract.algo.ts:40
+    // this.deadline(Txn.sender).value = deadline
+    uncover 2
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:33
+    // @abimethod()
+    intc_1 // 1
+    return
+
+
+// smart_contracts/saving_vault/contract.algo.ts::SavingVault.deposit[routing]() -> void:
+deposit:
+    // smart_contracts/saving_vault/contract.algo.ts:44
+    // @abimethod()
+    txn GroupIndex
+    intc_1 // 1
+    -
+    dup
+    gtxns TypeEnum
+    intc_1 // pay
+    ==
+    assert // transaction type is pay
+    // smart_contracts/saving_vault/contract.algo.ts:46
+    // assert(payTxn.receiver === Global.currentApplicationAddress, "Receiver must be the contract address")
+    dup
+    gtxns Receiver
+    global CurrentApplicationAddress
+    ==
+    assert // Receiver must be the contract address
+    // smart_contracts/saving_vault/contract.algo.ts:47
+    // assert(payTxn.amount > Uint64(0), "Deposit amount must be greater than zero")
+    gtxns Amount
+    dup
+    assert // Deposit amount must be greater than zero
+    // smart_contracts/saving_vault/contract.algo.ts:48
+    // assert(this.goal(Txn.sender). value > Uint64(0), "set a saving goal before depositing")
+    txn Sender
+    intc_0 // 0
+    // smart_contracts/saving_vault/contract.algo.ts:16
+    // goal =         LocalState<uint64>({ key: "goal"})
+    bytec_0 // "goal"
+    // smart_contracts/saving_vault/contract.algo.ts:48
+    // assert(this.goal(Txn.sender). value > Uint64(0), "set a saving goal before depositing")
+    app_local_get_ex
+    assert // check LocalState exists
+    assert // set a saving goal before depositing
+    // smart_contracts/saving_vault/contract.algo.ts:51
+    // const newTotal: uint64 = this.deposited(Txn.sender).value + depositAmount
+    txn Sender
+    intc_0 // 0
+    // smart_contracts/saving_vault/contract.algo.ts:15
+    // deposited =    LocalState<uint64>({ key: "dep"}) // total saved
+    bytec_1 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:51
+    // const newTotal: uint64 = this.deposited(Txn.sender).value + depositAmount
+    app_local_get_ex
+    assert // check LocalState exists
+    dig 1
+    +
+    // smart_contracts/saving_vault/contract.algo.ts:52
+    // const userGoal: uint64 = this.goal(Txn.sender).value
+    txn Sender
+    intc_0 // 0
+    // smart_contracts/saving_vault/contract.algo.ts:16
+    // goal =         LocalState<uint64>({ key: "goal"})
+    bytec_0 // "goal"
+    // smart_contracts/saving_vault/contract.algo.ts:52
+    // const userGoal: uint64 = this.goal(Txn.sender).value
+    app_local_get_ex
+    assert // check LocalState exists
+    // smart_contracts/saving_vault/contract.algo.ts:54
+    // this.deposited(Txn.sender).value = newTotal
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:15
+    // deposited =    LocalState<uint64>({ key: "dep"}) // total saved
+    bytec_1 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:54
+    // this.deposited(Txn.sender).value = newTotal
+    dig 3
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:55
+    // this.totalSaving(Txn.sender).value =this.totalSaving(Txn.sender).value + depositAmount
+    txn Sender
+    intc_0 // 0
+    // smart_contracts/saving_vault/contract.algo.ts:19
+    // totalSaving =  LocalState<uint64>({ key: "totalS"})
+    bytec 4 // "totalS"
+    // smart_contracts/saving_vault/contract.algo.ts:55
+    // this.totalSaving(Txn.sender).value =this.totalSaving(Txn.sender).value + depositAmount
+    app_local_get_ex
+    assert // check LocalState exists
+    uncover 3
+    +
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:19
+    // totalSaving =  LocalState<uint64>({ key: "totalS"})
+    bytec 4 // "totalS"
+    // smart_contracts/saving_vault/contract.algo.ts:55
+    // this.totalSaving(Txn.sender).value =this.totalSaving(Txn.sender).value + depositAmount
+    uncover 2
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:56
+    // if (newTotal >= userGoal && this.goalReached(Txn.sender).value === Uint64(0)) {
+    >=
+    bz deposit_after_if_else@4
+    txn Sender
+    intc_0 // 0
+    // smart_contracts/saving_vault/contract.algo.ts:17
+    // goalReached =  LocalState<uint64>({ key: "done"}) // 1 if goal reached, 0 otherwise
+    bytec_2 // "done"
+    // smart_contracts/saving_vault/contract.algo.ts:56
+    // if (newTotal >= userGoal && this.goalReached(Txn.sender).value === Uint64(0)) {
+    app_local_get_ex
+    assert // check LocalState exists
+    bnz deposit_after_if_else@4
+    // smart_contracts/saving_vault/contract.algo.ts:57
+    // this.goalReached(Txn.sender).value = Uint64(1)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:17
+    // goalReached =  LocalState<uint64>({ key: "done"}) // 1 if goal reached, 0 otherwise
+    bytec_2 // "done"
+    // smart_contracts/saving_vault/contract.algo.ts:57
+    // this.goalReached(Txn.sender).value = Uint64(1)
+    intc_1 // 1
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:58
+    // this.totalGoalsReached(Txn.sender).value = this.totalGoalsReached(Txn.sender).value + Uint64(1)
+    txn Sender
+    intc_0 // 0
+    // smart_contracts/saving_vault/contract.algo.ts:21
+    // totalGoalsReached = LocalState<uint64>({key: "goalreached"})
+    bytec_3 // "goalreached"
+    // smart_contracts/saving_vault/contract.algo.ts:58
+    // this.totalGoalsReached(Txn.sender).value = this.totalGoalsReached(Txn.sender).value + Uint64(1)
+    app_local_get_ex
+    assert // check LocalState exists
+    intc_1 // 1
+    +
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:21
+    // totalGoalsReached = LocalState<uint64>({key: "goalreached"})
+    bytec_3 // "goalreached"
+    // smart_contracts/saving_vault/contract.algo.ts:58
+    // this.totalGoalsReached(Txn.sender).value = this.totalGoalsReached(Txn.sender).value + Uint64(1)
+    uncover 2
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:59
+    // this.goal(Txn.sender).value = Uint64(0)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:16
+    // goal =         LocalState<uint64>({ key: "goal"})
+    bytec_0 // "goal"
+    // smart_contracts/saving_vault/contract.algo.ts:59
+    // this.goal(Txn.sender).value = Uint64(0)
+    intc_0 // 0
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:60
+    // this.deadline(Txn.sender).value = Uint64(0)
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:22
+    // deadline = LocalState<uint64>({key: "dl"})
+    bytec 5 // "dl"
+    // smart_contracts/saving_vault/contract.algo.ts:60
+    // this.deadline(Txn.sender).value = Uint64(0)
+    intc_0 // 0
+    app_local_put
+
+deposit_after_if_else@4:
+    // smart_contracts/saving_vault/contract.algo.ts:62
+    // return this.totalGoalsReached(Txn.sender).value
+    txn Sender
+    intc_0 // 0
+    // smart_contracts/saving_vault/contract.algo.ts:21
+    // totalGoalsReached = LocalState<uint64>({key: "goalreached"})
+    bytec_3 // "goalreached"
+    // smart_contracts/saving_vault/contract.algo.ts:62
+    // return this.totalGoalsReached(Txn.sender).value
+    app_local_get_ex
+    assert // check LocalState exists
+    // smart_contracts/saving_vault/contract.algo.ts:44
+    // @abimethod()
+    itob
+    bytec 6 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
+
+
+// smart_contracts/saving_vault/contract.algo.ts::SavingVault.withdraw[routing]() -> void:
+withdraw:
+    // smart_contracts/saving_vault/contract.algo.ts:65
+    // @abimethod()
+    txna ApplicationArgs 1
+    dup
+    len
+    intc_2 // 8
+    ==
+    assert // invalid number of bytes for arc4.uint64
+    btoi
+    // smart_contracts/saving_vault/contract.algo.ts:67
+    // const depositedAmount = this.deposited(Txn.sender).value
+    txn Sender
+    intc_0 // 0
+    // smart_contracts/saving_vault/contract.algo.ts:15
+    // deposited =    LocalState<uint64>({ key: "dep"}) // total saved
+    bytec_1 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:67
+    // const depositedAmount = this.deposited(Txn.sender).value
+    app_local_get_ex
+    assert // check LocalState exists
+    // smart_contracts/saving_vault/contract.algo.ts:68
+    // assert(depositedAmount > 0, "No deposits found for this accout")
+    dup
+    assert // No deposits found for this accout
+    // smart_contracts/saving_vault/contract.algo.ts:69
+    // assert(amount > 0, "amount must be greather than zero")
+    dig 1
+    assert // amount must be greather than zero
+    // smart_contracts/saving_vault/contract.algo.ts:70
+    // assert(amount <= depositedAmount, "amount greather than the deposited amount")
+    dup2
+    <=
+    assert // amount greather than the deposited amount
+    // smart_contracts/saving_vault/contract.algo.ts:73-79
+    // const result = itxn
+    //   .payment({
+    //     receiver: Txn.sender,
+    //     amount: amount,
+    //     fee: Uint64(0),
+    //   })
+    //   .submit()
+    itxn_begin
+    // smart_contracts/saving_vault/contract.algo.ts:75
+    // receiver: Txn.sender,
+    txn Sender
+    dig 2
+    itxn_field Amount
+    itxn_field Receiver
+    // smart_contracts/saving_vault/contract.algo.ts:73-78
+    // const result = itxn
+    //   .payment({
+    //     receiver: Txn.sender,
+    //     amount: amount,
+    //     fee: Uint64(0),
+    //   })
+    intc_1 // 1
+    itxn_field TypeEnum
+    // smart_contracts/saving_vault/contract.algo.ts:77
+    // fee: Uint64(0),
+    intc_0 // 0
+    itxn_field Fee
+    // smart_contracts/saving_vault/contract.algo.ts:73-79
+    // const result = itxn
+    //   .payment({
+    //     receiver: Txn.sender,
+    //     amount: amount,
+    //     fee: Uint64(0),
+    //   })
+    //   .submit()
+    itxn_submit
+    itxn Amount
+    cover 2
+    // smart_contracts/saving_vault/contract.algo.ts:80
+    // const remaining: uint64 = depositedAmount - amount;
+    swap
+    -
+    // smart_contracts/saving_vault/contract.algo.ts:81
+    // this.deposited(Txn.sender).value = remaining;
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:15
+    // deposited =    LocalState<uint64>({ key: "dep"}) // total saved
+    bytec_1 // "dep"
+    // smart_contracts/saving_vault/contract.algo.ts:81
+    // this.deposited(Txn.sender).value = remaining;
+    dig 2
+    app_local_put
+    // smart_contracts/saving_vault/contract.algo.ts:83
+    // if(remaining < this.goal(Txn.sender).value){
+    txn Sender
+    intc_0 // 0
+    // smart_contracts/saving_vault/contract.algo.ts:16
+    // goal =         LocalState<uint64>({ key: "goal"})
+    bytec_0 // "goal"
+    // smart_contracts/saving_vault/contract.algo.ts:83
+    // if(remaining < this.goal(Txn.sender).value){
+    app_local_get_ex
+    assert // check LocalState exists
+    <
+    bz withdraw_after_if_else@4
+    // smart_contracts/saving_vault/contract.algo.ts:84
+    // this.goalReached(Txn.sender).value = Uint64(0);
+    txn Sender
+    // smart_contracts/saving_vault/contract.algo.ts:17
+    // goalReached =  LocalState<uint64>({ key: "done"}) // 1 if goal reached, 0 otherwise
+    bytec_2 // "done"
+    // smart_contracts/saving_vault/contract.algo.ts:84
+    // this.goalReached(Txn.sender).value = Uint64(0);
+    intc_0 // 0
+    app_local_put
+
+withdraw_after_if_else@4:
+    // smart_contracts/saving_vault/contract.algo.ts:65
+    // @abimethod()
+    dup
+    itob
+    bytec 6 // 0x151f7c75
+    swap
+    concat
+    log
+    intc_1 // 1
+    return
