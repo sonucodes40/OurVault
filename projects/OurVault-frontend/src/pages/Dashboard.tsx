@@ -174,7 +174,10 @@ function Dashboard({ address, setAddress }: any) {
 
       {/* ── Row 2: Milestone Progress + Deposit/Withdraw ── */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
-        <MilestoneCard />
+        <MilestoneCard 
+        totalGoalReached={userData?.totalGoalsReached}
+        totalSaving={userData?.totalSaving}
+         />
         <DepositWithdraw />
       </div>
 

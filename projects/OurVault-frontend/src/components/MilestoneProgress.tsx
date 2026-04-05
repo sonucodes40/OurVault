@@ -6,6 +6,10 @@ type Milestone = {
   amount: number;
   icon: string;
 };
+type Props = {
+  totalSaving?: number;
+  totalGoalReached?: number;
+}
 
 const milestones: Milestone[] = [
   { title: "Starter", amount: 1, icon: "🌱" },
@@ -27,8 +31,9 @@ const milestones: Milestone[] = [
   { title: "God Mode", amount: 20000, icon: "⚜️" },
 ];
 
-export default function MilestoneCard() {
-  const totalSavings = 20000; // dynamic later
+export default function MilestoneCard({totalSaving = 0, totalGoalReached = 0}: Props) {
+  const totalSavings = totalSaving; // dynamic later
+  const totalGoaReached = totalGoalReached; // dynamic later
 
   const achieved = milestones.filter(
     (m) => totalSavings >= m.amount
@@ -56,13 +61,23 @@ export default function MilestoneCard() {
       </div>
 
       {/* Total Savings */}
-      <div className="mb-6">
+      <div className="flex justify-between gap-6">
+      <div className="flex-1">
         <p className="text-sm text-slate-400">
           Total Savings
         </p>
         <h1 className="text-3xl font-bold text-cyan-400">
           {totalSavings.toFixed(2)} ALGO
         </h1>
+      </div>
+      <div className="flex-1">
+        <p className="text-sm text-slate-400">
+          Total GoalsReached
+        </p>
+        <h1 className="text-3xl font-bold text-cyan-400">
+          {totalSavings.toFixed(2)} ALGO
+        </h1>
+      </div>
       </div>
 
       {/* Badges */}
