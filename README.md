@@ -1,45 +1,101 @@
-# OurVault
+# 💰 OurVault (AlgoVault)
+### Smart Goal-Based Savings on Algorand Blockchain
 
-This starter full stack project has been generated using AlgoKit. See below for default getting started instructions.
+🚀 A decentralized savings vault that helps users build disciplined saving habits using blockchain-powered transparency and security.
 
-## Setup
+---
 
-### Initial setup
-1. Clone this repository to your local machine.
-2. Ensure [Docker](https://www.docker.com/) is installed and operational. Then, install `AlgoKit` following this [guide](https://github.com/algorandfoundation/algokit-cli#install).
-3. Run `algokit project bootstrap all` in the project directory. This command sets up your environment by installing necessary dependencies, setting up a Python virtual environment, and preparing your `.env` file.
-4. In the case of a smart contract project, execute `algokit generate env-file -a target_network localnet` from the `OurVault-contracts` directory to create a `.env.localnet` file with default configuration for `localnet`.
-5. To build your project, execute `algokit project run build`. This compiles your project and prepares it for running.
-6. For project-specific instructions, refer to the READMEs of the child projects:
-   - Smart Contracts: [OurVault-contracts](projects/OurVault-contracts/README.md)
-   - Frontend Application: [OurVault-frontend](projects/OurVault-frontend/README.md)
+## 📌 Problem Statement
 
-> This project is structured as a monorepo, refer to the [documentation](https://github.com/algorandfoundation/algokit-cli/blob/main/docs/features/project/run.md) to learn more about custom command orchestration via `algokit project run`.
+Users often struggle to maintain consistent saving habits due to:
+- Lack of structured saving tools  
+- No accountability or commitment system  
+- Poor progress tracking in existing apps  
 
-### Subsequently
+As described in the Hackatron problem statement, the goal is to build a **wallet-linked savings vault on Algorand** that enables secure deposits and transparent tracking. :contentReference[oaicite:0]{index=0}
 
-1. If you update to the latest source code and there are new dependencies, you will need to run `algokit project bootstrap all` again.
-2. Follow step 3 above.
+---
 
-## Tools
+## 💡 Solution
 
-This project makes use of Python and React to build Algorand smart contracts and to provide a base project configuration to develop frontends for your Algorand dApps and interactions with smart contracts. The following tools are in use:
+**OurVault** solves this by turning saving into a **locked commitment system**:
 
-- Algorand, AlgoKit, and AlgoKit Utils
-- Python dependencies including Poetry, Black, Ruff or Flake8, mypy, pytest, and pip-audit
-- React and related dependencies including AlgoKit Utils, Tailwind CSS, daisyUI, use-wallet, npm, jest, playwright, Prettier, ESLint, and Github Actions workflows for build validation
+- Users create savings goals with deadlines 🎯  
+- Funds are deposited and tracked on-chain 💰  
+- Active goals remain locked to prevent impulsive withdrawals 🔒  
+- Progress and milestones are visible in real-time 📊  
 
-### VS Code
+👉 “We don’t just track savings, we enforce discipline.”
 
-It has also been configured to have a productive dev experience out of the box in [VS Code](https://code.visualstudio.com/), see the [backend .vscode](./backend/.vscode) and [frontend .vscode](./frontend/.vscode) folders for more details.
+---
 
-## Integrating with smart contracts and application clients
 
-Refer to the [OurVault-contracts](projects/OurVault-contracts/README.md) folder for overview of working with smart contracts, [projects/OurVault-frontend](projects/OurVault-frontend/README.md) for overview of the React project and the [projects/OurVault-frontend/contracts](projects/OurVault-frontend/src/contracts/README.md) folder for README on adding new smart contracts from backend as application clients on your frontend. The templates provided in these folders will help you get started.
-When you compile and generate smart contract artifacts, your frontend component will automatically generate typescript application clients from smart contract artifacts and move them to `frontend/src/contracts` folder, see [`generate:app-clients` in package.json](projects/OurVault-frontend/package.json). Afterwards, you are free to import and use them in your frontend application.
+## ✨ Features
 
-The frontend starter also provides an example of interactions with your SavingVaultClient in [`AppCalls.tsx`](projects/OurVault-frontend/src/components/AppCalls.tsx) component by default.
+- 🔗 **Wallet Integration** (Algorand wallet connection)  
+- 💰 **Secure Deposits** using blockchain transactions  
+- 🎯 **Goal-Based Saving System**  
+- 📊 **Progress Tracking Dashboard**  
+- 🏆 **Milestone System & Badges**  
+- 🔒 **Goal Lock Mechanism**  
+- 📜 **Transaction History**  
 
-## Next Steps
+---
 
-You can take this project and customize it to build your own decentralized applications on Algorand. Make sure to understand how to use AlgoKit and how to write smart contracts for Algorand before you start.
+## 🖥️ Dashboard Preview
+
+![DashBoard](image.png)
+
+> Clean UI showing vault balance, milestones, goals, deposits, and progress tracking.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js + Tailwind CSS  
+- **Blockchain:** Algorand  
+- **Development Tools:** AlgoKit  
+- **Version Control:** Git & GitHub  
+
+---
+
+## ⚙️ How It Works
+
+1. User connects Algorand wallet  
+2. Creates a savings goal (amount + deadline)  
+3. Deposits ALGO into vault  
+4. Funds are recorded on-chain  
+5. Dashboard tracks progress & milestones  
+6. Withdrawal is restricted during active goals  
+
+---
+
+## 🔗 Blockchain Implementation
+
+- Uses **Algorand local state** to track user savings  
+- Uses **global state** for milestones  
+- Implements **grouped transactions** (payment + app call)  
+- Ensures **real-time on-chain data tracking**  
+
+---
+
+## 🚀 Future Scope
+
+- 🤖 AI-based saving recommendations  
+- 👥 Group savings / shared goals  
+- 📱 Mobile application  
+- 📈 Advanced analytics & insights  
+
+---
+
+## 🎯 Impact
+
+- Encourages disciplined financial habits  
+- Provides transparency through blockchain  
+- Scalable solution for real-world fintech   
+
+---
+
+## 📢 Final Note
+
+> “Saving money is hard. OurVault makes it inevitable.”
