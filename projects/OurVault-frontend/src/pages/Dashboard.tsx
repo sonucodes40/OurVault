@@ -167,6 +167,8 @@ function Dashboard({ address, setAddress }: any) {
           icon={<Sprout size={20} />}
           onEditClick={() => setIsModalOpen(true)}
           deadline={userData?.deadline}
+          goal={userData?.goal}
+          goalReached={userData?.goalReached}
         />
       </div>
 
