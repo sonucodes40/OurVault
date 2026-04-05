@@ -11,6 +11,7 @@ import GraphCard from '../components/Graph'
 import { GoalCard } from '../components/goalcard'
 import ProgressBar from '../components/ProgressBar'
 import { AppState } from '@algorandfoundation/algokit-utils/types/app'
+import RewardsModal from '../components/reward';
 
 type UserData = {
     deposited: number;
