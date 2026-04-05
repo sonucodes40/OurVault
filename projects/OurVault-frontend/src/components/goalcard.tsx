@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 type CardProps = {
   title: string;
   value: string;
@@ -5,9 +7,44 @@ type CardProps = {
   icon: React.ReactNode;
   highlight?: boolean;
   onEditClick?: () => void;
+  deadline?: number; 
 };
 
-export const GoalCard = ({ title, value, subtitle, icon, highlight, onEditClick }: CardProps) => {
+export const GoalCard = ({
+  title,
+  value,
+  subtitle,
+  icon,
+  highlight,
+  onEditClick,
+  deadline,
+}: CardProps) => {
+  const [timeLeft, setTimeLeft] = useState<string>("");
+
+  useEffect(() => {
+    if (!deadline) return;
+
+    const updateTimer = () => {
+      const now = Math.floor(Date.now() / 1000); // current time (seconds)
+      const diff = deadline - now;
+
+      if (diff <= 0) {
+        setTimeLeft("Deadline passed");
+        return;
+      }
+
+      const days = Math.floor(diff / (24 * 60 * 60));
+      const hours = Math.floor((diff % (24 * 60 * 60)) / (60 * 60));
+
+      setTimeLeft(`${days}d ${hours}h remaining`);
+    };
+
+    updateTimer();
+    const interval = setInterval(updateTimer, 1000);
+
+    return () => clearInterval(interval);
+  }, [deadline]);
+
   return (
     <div
       className={`flex justify-between items-start p-5 rounded-2xl border transition
@@ -32,13 +69,16 @@ export const GoalCard = ({ title, value, subtitle, icon, highlight, onEditClick 
           {value}
         </h2>
 
-        <p className="text-sm text-slate-500">{subtitle}</p>
+        <p className="text-sm text-slate-500">
+          {timeLeft || subtitle}
+        </p>
+
         <button
-            onClick={onEditClick}
-            className="mt-3 text-xs text-yellow-400 hover:text-yellow-300 transition"
-            >
-            Edit Goal
-            </button>
+          onClick={onEditClick}
+          className="mt-3 text-xs text-yellow-400 hover:text-yellow-300 transition"
+        >
+          Edit Goal
+        </button>
       </div>
 
       {/* Icon */}
