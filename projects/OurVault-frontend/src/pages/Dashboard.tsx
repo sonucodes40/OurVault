@@ -34,6 +34,8 @@ function Dashboard({ address, setAddress }: any) {
   }
 
   const [goal, setGoal] = useState(5)
+  const [goalAmount, setGoalAmount] = useState<number>(goal)
+  const [deadlineDays, setDeadlineDays] = useState<number | "">("")
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   // goal logic
@@ -161,9 +163,10 @@ function Dashboard({ address, setAddress }: any) {
         <GoalCard
           title="Goal"
           value={`${userData?.goal} ALGO`}
-          subtitle="Starter badge"
+          subtitle=""
           icon={<Sprout size={20} />}
           onEditClick={() => setIsModalOpen(true)}
+          deadline={userData?.deadline}
         />
       </div>
 
@@ -208,28 +211,36 @@ function Dashboard({ address, setAddress }: any) {
             </div>
 
             {/* Input */}
+            {/* Amount */}
             <label className="text-white">Amount:</label>
             <input
               type="number"
-              defaultValue={goal}
-              id="goalInput"
+              value={goalAmount}
+              onChange={(e) => setGoalAmount(Number(e.target.value))}
               className="w-full p-2 rounded bg-slate-900 border border-slate-700 text-white mb-4"
             />
+
+            {/* Deadline */}
             <label className="text-white">Deadline in Days:</label>
             <input
               type="number"
-              defaultValue={goal}
-              id="goalInput"
+              value={deadlineDays}
+              onChange={(e) => setDeadlineDays(Number(e.target.value))}
               className="w-full p-2 rounded bg-slate-900 border border-slate-700 text-white mb-4"
             />
 
             {/* Save */}
             <button
               onClick={() => {
-                const newGoal = (
-                  document.getElementById('goalInput') as HTMLInputElement
-                ).value
-                if (newGoal) setGoal(Number(newGoal))
+                if (!goalAmount || !deadlineDays) {
+                  alert("Fill all fields")
+                  return
+                }
+
+                const deadlineInSeconds = deadlineDays * 24 * 60 * 60
+
+                handleSaveGoal(goalAmount, deadlineInSeconds)
+                setGoal(goalAmount) // optional (for UI sync)
                 setIsModalOpen(false)
               }}
               className="w-full bg-yellow-500 text-black py-2 rounded-lg hover:bg-yellow-400"
