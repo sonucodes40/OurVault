@@ -8,6 +8,8 @@ type CardProps = {
   highlight?: boolean;
   onEditClick?: () => void;
   deadline?: number; 
+    goal?: number;      
+  goalReached?: number;
 };
 
 export const GoalCard = ({
@@ -18,9 +20,11 @@ export const GoalCard = ({
   highlight,
   onEditClick,
   deadline,
+  goal,
+  goalReached,
 }: CardProps) => {
-  const [timeLeft, setTimeLeft] = useState<string>("");
-
+    const [timeLeft, setTimeLeft] = useState<string>("");
+    const isLocked = !!goal && goal > 0 && !goalReached;
   useEffect(() => {
     if (!deadline) return;
 
@@ -74,10 +78,21 @@ export const GoalCard = ({
         </p>
 
         <button
-          onClick={onEditClick}
-          className="mt-3 text-xs text-yellow-400 hover:text-yellow-300 transition"
+        onClick={() => {
+            if (isLocked) {
+            alert("Active goal already exists 🔒");
+            return;
+            }
+            onEditClick?.();
+        }}
+        disabled={isLocked}
+        className={`mt-3 text-xs transition ${
+            isLocked
+            ? "text-slate-500 cursor-not-allowed"
+            : "text-yellow-400 hover:text-yellow-300 cursor-pointer"
+        }`}
         >
-          Edit Goal
+        {isLocked ? "Goal Active 🔒" : "Edit Goal"}
         </button>
       </div>
 
