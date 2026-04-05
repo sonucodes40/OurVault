@@ -133,7 +133,7 @@ function Dashboard({ address, setAddress }: any) {
             onClick={initialize}
             className="bg-cyan-600 text-white px-4 py-2 rounded-xl"
           >
-            Inatalize
+            Initialize
           </button>
           <button
             onClick={handleDisconnect}
