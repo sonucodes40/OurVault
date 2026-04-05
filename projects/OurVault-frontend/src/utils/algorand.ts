@@ -32,7 +32,7 @@ export const initUser = async (sender: string, signer: any) => {
   return result
 }
 
-export const setGoal = async (
+export const setGoalb = async (
   sender: string,
   signer: any,
   goal: number,

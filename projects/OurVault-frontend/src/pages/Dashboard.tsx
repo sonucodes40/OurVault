@@ -4,7 +4,7 @@ import TransactionHistoryUI from '../components/TranscationCard'
 import DepositWithdraw from '../components/DepositWithdrawCard'
 import { Card } from '../components/card'
 import { Landmark, Sprout, Trophy, Vault, Wallet } from 'lucide-react'
-import {initUser, userBalance } from '../utils/algorand'
+import {initUser, setGoalb, userBalance } from '../utils/algorand'
 import algosdk from 'algosdk'
 import MilestoneCard from '../components/MilestoneProgress'
 import GraphCard from '../components/Graph'
@@ -36,6 +36,24 @@ function Dashboard({ address, setAddress }: any) {
   const [goal, setGoal] = useState(5)
   const [isModalOpen, setIsModalOpen] = useState(false)
 
+  // goal logic
+  const handleSaveGoal = async (goalValue: number, duration: number) => {
+  if (!activeAddress || !transactionSigner) {
+    alert("Connect wallet first");
+    return;
+  }
+
+  try {
+    await setGoalb(activeAddress, transactionSigner, goalValue, duration);
+
+    alert("Goal + Deadline set 🎯");
+    await fetchBalances();
+  } catch (error) {
+    console.error(error);
+    alert("Error setting goal");
+  }
+};
+// initialize account
   const initialize = async () => {
     if (!activeAddress) return
     try {
@@ -141,8 +159,8 @@ function Dashboard({ address, setAddress }: any) {
         <ProgressBar currentCount={4} totalCount={5} />
 
         <GoalCard
-          title="Next Goal"
-          value={`${goal} ALGO`}
+          title="Goal"
+          value={`${userData?.goal} ALGO`}
           subtitle="Starter badge"
           icon={<Sprout size={20} />}
           onEditClick={() => setIsModalOpen(true)}
