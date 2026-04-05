@@ -153,10 +153,11 @@ export default function MilestoneCard({ totalSaving = 0, totalGoalReached = 0 }:
       </div>
 
       {/* The Modal */}
-      <RewardsModal 
-        isOpen={isModalOpen} 
-        onClose={() => setIsModalOpen(false)} 
-        totalSavings={totalSavings} 
+      <RewardsModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        totalSavings={totalSavings}
+        totalGoalsReached={totalGoalReached}   // ← add this
       />
     </>
   );
