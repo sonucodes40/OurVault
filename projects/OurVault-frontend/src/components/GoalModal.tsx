@@ -41,16 +41,6 @@ export const GoalModal = ({
 
   if (!isOpen) return null;
 
-  // ✅ Convert date → seconds
-  
-  const calculateDuration = () => {
-    if (!deadline) return 0;
-
-    const selected = new Date(deadline).getTime();
-    const now = Date.now();
-
-    return Math.floor((selected - now) / 1000); // seconds
-  };
 
   return (
     <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">

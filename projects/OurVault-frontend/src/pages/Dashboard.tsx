@@ -156,7 +156,7 @@ function Dashboard({ address, setAddress }: any) {
           icon={<Wallet size={20} />}
         />
         
-        <ProgressBar currentCount={4} totalCount={5} />
+        <ProgressBar currentCount={userData?.deposited ||0} totalCount={ userData?.goal} />
 
         <GoalCard
           title="Goal"

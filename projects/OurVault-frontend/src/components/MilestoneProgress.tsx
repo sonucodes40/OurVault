@@ -13,7 +13,6 @@ const milestones: Milestone[] = [
   { title: "Hodler", amount: 10, icon: "🚀" },
   { title: "Whale", amount: 50, icon: "🐳" },
   { title: "Legend", amount: 100, icon: "👑" },
-
   { title: "Grinder", amount: 150, icon: "⚒️" },
   { title: "Collector", amount: 200, icon: "📦" },
   { title: "Strategist", amount: 300, icon: "🧠" },

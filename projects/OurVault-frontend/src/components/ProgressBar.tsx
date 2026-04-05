@@ -15,20 +15,35 @@ const ProgressBar: React.FC<ProgressBarProps> = ({ currentCount = 0, totalCount 
 
   // Turn green when finished, otherwise stay cyan
   const barColor = isComplete ? 'bg-green-500' : 'bg-cyan-500';
-
+const noGoal = totalCount === 0
   return (
     <div className="flex justify-between items-start p-5 rounded-2xl border transition border-yellow-500/30 bg-linear-to-br from-[#0f172a] to-[#020617] hover:border-slate-700">
       
-      {/* Left side: Text and Progress Bar */}
+
       <div className="w-full mr-4">
         <p className="text-xs text-slate-400 tracking-widest mb-2 uppercase">
           Milestones
         </p>
+        {noGoal ? (
+        <div>
+          <h2 className="text-xl text-slate-400 mb-2">
+            No Goal Set 🎯
+          </h2>
 
+          <p className="text-sm text-slate-500">
+            Set a goal to start tracking your progress
+          </p>
+
+          
+          <div className="w-full bg-slate-800 rounded-full h-1.5 mt-4">
+            <div className="h-full w-0 bg-slate-600 rounded-full" />
+          </div>
+        </div>
+      ):(
+        <>
         <h2 className="text-2xl font-semibold mb-1 text-yellow-400">
           {count} / {total}
         </h2>
-
         {/* Show completion percentage */}
         <p className="text-sm text-slate-500 mb-4">
           {Math.round(percentage)}%
@@ -42,6 +57,8 @@ const ProgressBar: React.FC<ProgressBarProps> = ({ currentCount = 0, totalCount 
             style={{ width: `${percentage}%` }}
           />
         </div>
+       </>
+      )}
       </div>
 
       {/* Right side: Icon */}
